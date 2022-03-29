@@ -1,20 +1,18 @@
 import React from 'react';
 
-import logo from './logo.svg';
 
 import './App.css';
 
 import HomePage from './pages/homepage.component';
-
-class App extends React.Component {
-  render() {
+function App() {
     return (
-      <div className='App'>
+      <div>
+        
         <HomePage />
       </div>
 
     );
   }
-}
+
 
 export default App;

@@ -1,20 +1,61 @@
 .homepage{
     
+   .backgroundimg{
+      height: 30rem;
+      img{
+         width: 100rem;
+         height: 30rem;
+         filter: brightness(50%);
 
+      }
+   }
    .contentofwelcome{
+    position: absolute;
+    top: 5rem;
+    display: flex;
     flex-direction: column;
-    padding-left: 3rem ;
+    padding-left: 4rem ;
     padding-top: 5rem;
     display: flex;
     text-align: start;
     line-height:0rem;
+    color: white;
 
     h2{
        color: burlywood;
+       font-family: 'Dancing Script', cursive;
+       font-size: 3rem;
+    }
+   }
+
+   .aboutus{
+      text-align: center;
+      h2{
+         color: burlywood;
+         font-family: 'Dancing Script', cursive;
+         font-size: 2rem;
+         line-height: 2rem;
+         
+      }
+      h1{
+         line-height: 2rem;
+         font-family: 'Montserrat',sans-serif;
+         font-weight: normal;
+         
+      }
+      p{
+         line-height: 1rem;
+         
+      }
+      h3{
+         font-family: 'Pacifico', cursive;
+         font-weight: bold ;
+         font-size: 2rem;
+         color: darkslategray;
+      }
+
+   }
     
-       
     
     }
-}
 
-}

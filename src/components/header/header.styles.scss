@@ -1,18 +1,22 @@
 .header {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
     height: 7rem;
     width: 60rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
     justify-content: right;
-    background-color: white;
     padding: 0;
     margin: 0;
+    
 .title{
     align-items: flex-start;
     width: 40rem;
     padding: 0;
     margin: 0;
+    color: white;
     padding-top: 3rem;
     padding-left: 4rem;
     text-align: left;
@@ -27,10 +31,9 @@
     align-items: center;
     padding-right: 0rem;
     float: right;
-
-
     .option{
         padding: 1rem 1rem;
+        color: white;
 
     }
 }
