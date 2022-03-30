@@ -3,8 +3,9 @@ import React from 'react';
 
 
 import Header from '../components/header/header.component';
-import MenuItem from '../components/menu-items/menu-items.component';
-import Menu from '../components/menu/menu.component';
+import MainCourse from '../components/main-course/main-course.component';
+import MenuItems from '../components/menu-item/menu-item.component';
+import MenuImg from '../components/menusimg/menusimg.component';
 
 import './homepage.styles.scss';
 
@@ -30,9 +31,9 @@ const HomePage = () => (
                <p>cursus nisl aliquam. Aliquam et elit eu nunc rhoncus viverra quis at felis. Sed do</p>
             <h3>John Phillipe</h3>
         </div>
-        <Menu />
-        <MenuItem />
-        
+        <MenuImg />
+        <MenuItems />
+        <MainCourse />
     </div>  
 
 

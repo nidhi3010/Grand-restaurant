@@ -1,11 +1,22 @@
 .menuimg {
     
     height: 30rem;
+
     img{
         width: 100rem;
         height: 30rem;
         filter: brightness(90%);
       } 
+      h2{
+            position: absolute;
+            top:70rem;
+            text-align: center;
+            left:29rem;
+            color: burlywood;
+            font-family: 'Dancing Script', cursive;
+            font-size: 3rem;
+         }
+      
     h1{
         position: absolute;
         top: 75rem;
@@ -13,7 +24,7 @@
         left: 26rem;
         font-size: 3rem;
         font-family: 'Montserrat',sans-serif;  
-       
+     
 
     }
 
