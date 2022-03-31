@@ -1,74 +1,108 @@
-.menu-items{
- 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 0rem;
-   
+.menu-item {
+  min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+
+    
+    &:hover {
+      cursor: pointer;
   
-     .items{
-      flex-direction: column;
-      overflow: hidden;
       
-       &:hover{
-           cursor: pointer;
-        & img{
-          transform: scale(1.1);
-          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-         
-        }
-
-
-         
-         & .content{
-          opacity: 0.9;
-         }
+      & .background-image {
+       opacity: 0.3;
       }
-      
-       
-      
-        img{
-         height: 20rem;
-         width: 30rem;
-         background-size: cover;
-    background-position: center;
-         
   
-         }
-         .content {
-          height: 15rem;
-          
-          display: flex;
-          flex-direction: column;
-          
-          border: 1px solid black;
-          background-color: black;
-          opacity: 0.7;
-          position: absolute;
   
-         .name {
-          font-weight: bold;
-         
-          font-size: 1rem;
-          color: #4a4a4a;
-         }
-  
-        .ingredient {
-          font-weight: lighter;
-          font-size: 0.5rem;
-        }
-         .price {
-          font-weight: lighter;
-          font-size: 0.5rem;
-         }
-  
-         }
-  
+      & .content {
+        opacity: 1;
+        transform: scale(1.1);
         
-         
-       }   
-       
+      }
     }
-       
-    
-    
+    &.large {
+      height: 380px;
+    }
   
+    &:first-child {
+      margin-right: 7.5px;
+    }
+  
+    &:last-child {
+      margin-left: 7.5px;
+    }
+    
+    .background-image {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  
+  
+    .content {
+      height: 12rem;
+      padding:  1rem;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      position: absolute;
+      cursor: pointer;
+      opacity: 0;
+      
+  
+      .name {
+        font-weight: bold;
+          font-size: 1rem;
+          color: black;
+
+      }
+  
+      .ingredient{
+        font-weight: lighter;
+          font-size: 1rem;
+    }
+     .price{
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 5rem;
+
+     }
+     .button {
+      
+        .order{
+          padding: 0.5rem;
+          background-color: #fc4958;
+          font-size: 1rem;
+          color: white;
+          border: none;
+          align-items: flex-start;
+          margin-right: 5rem;
+          text-align: start;
+          width: 5rem;
+          
+        }
+     
+       justify-content: space-between;
+      //  gap: 1rem
+    
+       .star{
+        background-color: #fc4958;
+        font-size: 1rem;
+        color: white;
+       border: none;
+       width: 1rem;
+       align-items: flex-end;
+       text-align: center;
+       float: right;
+      }
+    }
+  }
+  
+}
+

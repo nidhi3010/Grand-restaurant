@@ -5,7 +5,7 @@ import './menusimg.styles.scss';
 
 const MenuImg = () => (
    <div className='menuimg'>
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-LhpBo1PC7C7qzOXxRwlYzZSOep5SE8f6VA&usqp=CAU.jpg">
+     <img src="https://wallpaperaccess.com/full/3014609.jpg">
      </img>
      <h2>Our</h2>
      <h1>MENUS</h1>

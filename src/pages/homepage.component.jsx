@@ -4,8 +4,9 @@ import React from 'react';
 
 import Header from '../components/header/header.component';
 import MainCourse from '../components/main-course/main-course.component';
-import MenuItems from '../components/menu-item/menu-item.component';
+import Directory from '../components/menu-directory/menu-directory.component';
 import MenuImg from '../components/menusimg/menusimg.component';
+import Reservation from '../components/reservation/reservation.component';
 
 import './homepage.styles.scss';
 
@@ -32,8 +33,9 @@ const HomePage = () => (
             <h3>John Phillipe</h3>
         </div>
         <MenuImg />
-        <MenuItems />
+         <Directory />
         <MainCourse />
+        <Reservation />
     </div>  
 
 
