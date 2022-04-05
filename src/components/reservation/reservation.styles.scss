@@ -1,5 +1,5 @@
 .reservation {
-      
+     
     .reserimg {
       img{
         width: 100%;
@@ -8,20 +8,63 @@
       }
     }
    h2{
+     
     position: absolute;
-    top:291rem;
+    top:352rem;
     text-align: center;
-    left:107rem;
+    left:93rem;
     color: burlywood;
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
    }
    h1{
     position: absolute;
-    top: 298rem;
+    top: 358rem;
     text-align: center;
-    left: 100rem;
+    left: 84rem;
     font-size: 4rem;
     font-family: 'Montserrat',sans-serif;  
    }
+   .table {
+
+    display: flex;
+    flex-direction: column;
+      p{
+           font-size: 2rem;
+           justify-content: center;
+           
+      }
+       
+      span {
+          font-size: 2rem;
+          
+          justify-content: center;
+      }
+   }
+   .icons {
+     display: flex;
+
+    .cal {
+      size: 4rem;
+    }
+   
+    .cale {
+     // background-color: orangered;
+    }
+    .clock {
+      size:4rem;
+      justify-content: space-between;
+     }
+     .inputbox {
+
+     }
+     .user {
+
+     }
+     .menuperson {
+       
+     }
+   }
 }
+  
+  

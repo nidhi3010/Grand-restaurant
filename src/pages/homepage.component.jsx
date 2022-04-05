@@ -3,7 +3,7 @@ import React from 'react';
 
 
 import Header from '../components/header/header.component';
-import MainCourse from '../components/main-course/main-course.component';
+import CourseContent from '../components/maincourse-content/maincourse-content.component';
 import Directory from '../components/menu-directory/menu-directory.component';
 import MenuImg from '../components/menusimg/menusimg.component';
 import Reservation from '../components/reservation/reservation.component';
@@ -34,7 +34,8 @@ const HomePage = () => (
         </div>
         <MenuImg />
          <Directory />
-        <MainCourse />
+        
+        <CourseContent />
         <Reservation />
     </div>  
 

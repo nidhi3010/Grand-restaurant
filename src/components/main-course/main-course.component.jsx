@@ -1,33 +1,26 @@
 import React from 'react';
 
+
 import './main-course.styles.scss';
 
-const MainCourse = () => (
-    <div className='main-course'>
-       <div className='title'>
-          <h1>MAIN COURSE</h1>
-       </div>
+const MainCourse = ({title, ingre, price}) => (
+    
+        <div className='main-course'>
+           <div className='content'>
+             <h2 className='title'>{title}</h2>
 
-       <div className='course'>
-          <div className='column_1'>
-            <div className='menutitle'>
-              <span>BAKED POTATO PIZZA</span>
-              <span>    </span>
-              <span>$12</span>
-              <div className='ingre'>
-                <span>Potato / Bread / Cheese</span>
-              </div>
-            </div>
-            <div className='menutilte2'>
-              <span>WILD MUSHROOM BUCATINI WITH KALE
-              </span>
-              <span>  </span>
-              <span>&7.8</span>
-            </div>
+             <div className='ingre-price'>
+             <span className='ingre'>{ingre}</span>
+             <span className='price'>{price}</span>
+             </div>
             
            </div>
-       </div>
-    </div>
- 
+         </div>
+
+        
+            
+        
+        
     )
+
 export default MainCourse;

@@ -1,8 +1,4 @@
-const MAIN_COURSE_DATA ={
-    column1: {
-        id:1,
-    
-    items: [
+const MAIN_COURSE_DATA =[
 {
     id: 1,
     title: 'BAKED POTATO PIZZA',
@@ -26,14 +22,7 @@ const MAIN_COURSE_DATA ={
     title: 'LEMON-ROSEMARY CHICKEN',
     ingre: 'Chicken / Rosemary / Lemon',
     price:  '$19.9'
-}
-]
-    },
-
-column2: {
-    id:2,
-
-items: [
+},
 {
    id: 5,
    title: 'ROASTED RED POTATOES WITH ROSEMARY',
@@ -57,26 +46,19 @@ items: [
     title: 'GRILLED PORK WITH PRESERVED LEMONS',
     ingre: 'Pork / Lemons / Onions',
     price: '$22'
-}
-  ]  
-   },
-
-column3: {
-    id: 3,
-
-items: [
-  {
-      id: 9,
-      title: 'BLACK BEAN SWEET POTATO QUINOA (MEATLESS)LOAF',
-      ingre: 'Bean / Potato',
-      price: '$12'
+},
+{
+    id: 9,
+    title: 'BLACK BEAN SWEET POTATO QUINOA (MEATLESS)LOAF',
+    ingre: 'Bean / Potato',
+    price: '$12'
 
   },
   {
-      id: 10,
-      title: 'MEATLOAF WITH BLACK PEPPER-HONEY BBQ',
-      ingre: 'Pepper / Chicken / Honey',
-      price: '$19.90'
+    id: 10,
+    title: 'MEATLOAF WITH BLACK PEPPER-HONEY BBQ',
+    ingre: 'Pepper / Chicken / Honey',
+    price: '$19.90'
 
   },
   {
@@ -91,6 +73,6 @@ items: [
       ingre: 'Pork / Tenderloin / Yogurt',
       price: '$20'
   }  
-]    
-}   
-}
+];
+
+export default MAIN_COURSE_DATA;

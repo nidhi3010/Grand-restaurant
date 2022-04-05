@@ -1,18 +1,41 @@
 .main-course {
+  //background-color: orange;
+  width: 200rem;
+   .content {
+       text-align: left;
+       font-weight: inherit;
+       font-style: inherit;
+       flex-direction: row;
+       line-height: 3rem;
+       width: 200rem;
+        
+       .title {
+          margin: 0;
+          padding: 0;
+          font-family: inherit;
+          vertical-align: baseline;
+        }
+       .ingre-price {
+           display: flex;
+           justify-content: space-between;
+          width: 185rem;
+        //   background-color: yellow;
+       .ingre {
+         font-size: 1.5rem;
+         text-transform: none;
+         font-weight: normal;
+        // background-color: black;
+       }
+       
+       .price {
+            font-size: 1.5rem;
+            right: 0;
+            
+         //   background-color: blue;
+        
    
-    .title {
-        text-align: center;
-         text-decoration: underline;
-         padding-left: 9rem;
-h1{
-    line-height: 3rem;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: normal;
-    font-size: 3rem;
-
+        
+    } 
+   }
 }
-    }
-    
-
-    }
-    
+}
