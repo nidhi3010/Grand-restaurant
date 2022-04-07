@@ -29,6 +29,7 @@
 
     display: flex;
     flex-direction: column;
+    align-items: center;
       p{
            font-size: 2rem;
            justify-content: center;
@@ -42,29 +43,80 @@
       }
    }
    .icons {
+     padding: 3rem;
      display: flex;
+     flex-direction: row;
 
+     .calendar {
+       align-items: flex-start;
+       justify-content: start;
     .cal {
       size: 4rem;
     }
-   
+    display: flex;
+    //padding: 3rem;
+    
     .cale {
-     // background-color: orangered;
+       
     }
-    .clock {
-      size:4rem;
-      justify-content: space-between;
-     }
-     .inputbox {
+   }
 
+  justify-content: space-evenly;
+
+   .clocktime {
+    // background-color: aquamarine;
+    .clock {
+      size:3rem;
+     
      }
+    display: flex;
+     .inputbox {
+      
+     }
+   }
+
+
+    .personselection {
+      flex-direction: row;
      .user {
 
      }
-     .menuperson {
-       
+     display: flex;
+
+     .dropmenu {
+        
      }
    }
+
+
 }
+
+
+.findtable {
+  justify-content: center;
+  //background-color: blue;
   
+  align-items: center;
+ //display: flex;
+    button {
+      border: none;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:black;
+    //left: 4rem;
+    margin-left: 100rem;
+  }
+}
+}  
   
