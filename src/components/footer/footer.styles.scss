@@ -13,41 +13,95 @@
         .title {
             h1{
              font-size: 3rem;
-             line-height: 1rem;
+             line-height: 1.2rem;
             }
             h2{
               font-size: 2rem;
-              line-height: 1rem;
+              line-height: 1.2rem;
             }
             p{
                font-size: 1.5rem;
                font-weight: normal;
-               line-height: 1rem;
+               line-height: 1.2rem;
             }
         }
+        
         .logo {
-          //justify-content: space-between;
-          //display: flex ;
-         // background-color: yellow;
           gap:2rem;
           display: flex;
-          //size: 3rem;
           font-size: 2rem;
+        
 
           .facebook{
-           // font-size: 3rem;
-          }
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            iFillFacebook{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 iFillFacebook{
+                     transform: scale(1.2);
+                 }
+                  }  
+            }
+
           .twitter{
-
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            AiOutlineTwitter{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 AiOutlineTwitter{
+                     transform: scale(1.2);
+                 }
+                  }  
           }
+
           .youtube{
-
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            AiFillYoutube{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 AiFillYoutube{
+                     transform: scale(1.2);
+                 }
+                  }  
           }
+
           .pinterest{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            FaPinterest{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 FaPinterest{
+                     transform: scale(1.2);
+                 }
+                  }  
+ 
 
           }
           .instagram{
-
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            FaInstagram{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 FaInstagram{
+                     transform: scale(1.2);
+                 }
+                  }  
+ 
           }
         }
     }
@@ -55,22 +109,54 @@
 
     .recentposts {
         .recentpost_title{
-
+        
         }
         .post_1{
-
-        }
+           transition: 0.3s ease-in-out;
+           cursor: pointer;
+           h1{
+               transition: 0.3s ease-in-out;
+           }
+            &:hover{
+                color: #efc337;
+                h1{
+                    transform: scale(1.2);
+                }
+                 }
+            
+            }
+        
         .date_1{
 
         }
         .post_2{
-
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            h1{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 h1{
+                     transform: scale(1.2);
+                 }
+                  }
         }
         .date_2{
 
         }
         .post_3{
-
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            h1{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 h1{
+                     transform: scale(1.2);
+                 }
+                  }
         }
         .date_3{
 
@@ -87,67 +173,102 @@
             img{
                 width: 7rem;
                 height: 7rem;
-                padding: 0.5rem;
+                padding: 0.4rem;
             }
         }
         .second_3_img{
             img{
                 width: 7rem;
                height: 7rem;
-               padding: 00.5rem;
+               padding: 0.4rem;
             }
         }
     }
 
 
-    .contact_info {
+    .contact_info { 
+           display: flex;
+           flex-direction: column;
         .contacttitle{
             h1{
 
             }
         }
         .address_info{
+            display: flex;
+            transition: 0s;
+           // justify-content: space-between;
             .location{
-
+               height: 2.1rem;
+               width: 2.1rem;
+               padding-top: 1rem;
             }
             .address{
+               padding-left: 1rem;
+               font-size: 1.2rem;
 
             }
         }
         .call_info {
-           background-color: yellowgreen;
-          // justify-content: space-between;
-          // display: grid;
-           //grid-template-columns: auto auto ;
-           //align-items: flex-start;
-           //flex-direction: row;
-           //display: grid;
-          // padding-top: 0.5em;
-          //padding-bottom: 0.5em;
-
-
-           
+           display: flex;
+           transition: 0.3s ease-in-out;
+           cursor: pointer;
+           .call_info{
+               transition: 0.3s ease-in-out;
+           }
+            &:hover{
+                color: #efc337;
+                .call_info{
+                    transform: scale(1.2);
+                }
+                 }
+          
             .call_icon{
-            
+                height: 1.7rem;
+                width: 1.7rem;
+                padding-top: 1rem;
             }
-            //gap:1rem;
             .call_number{
+                padding-left: 1rem;
+                font-size: 1.2rem;
 
             }
         }
         .email_info {
-            .email_icon{
+            display: flex;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            .email_info{
+                transition: 0.3s ease-in-out;
+            }
+             &:hover{
+                 color: #efc337;
+                 .email_info{
+                     transform: scale(1.2);
+                 }
+                  }
 
+            .email_icon{
+                height: 1.7rem;
+                width: 1.7rem;
+                padding-top: 1rem;
             }
             .email_id{
+                padding-left: 1rem;
+                font-size: 1.2rem;
 
             }
         }
         .site_info {
+            display: flex;
             .site_icon{
-
+                height: 1.7rem;
+                width: 1.7rem;
+                padding-top: 1rem;
             }
             .site_name{
+                padding-left: 1rem;
+                font-size: 1.2rem;
 
             }
         }

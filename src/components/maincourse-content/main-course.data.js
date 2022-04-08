@@ -3,7 +3,7 @@ const MAIN_COURSE_DATA =[
     id: 1,
     title: 'BAKED POTATO PIZZA',
     ingre: 'Potato / Bread / Cheese',
-    price: '$`12'
+    price: '$12'
 },
 {
     id: 2,

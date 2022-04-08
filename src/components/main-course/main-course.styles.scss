@@ -1,6 +1,8 @@
 .main-course {
   //background-color: orange;
   width: 200rem;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr;
    .content {
        text-align: left;
        font-weight: inherit;
@@ -18,8 +20,9 @@
        .ingre-price {
            display: flex;
            justify-content: space-between;
+           //width:175rem;
           width: 185rem;
-        //   background-color: yellow;
+          //background-color: yellow;
        .ingre {
          font-size: 1.5rem;
          text-transform: none;
