@@ -1,0 +1,156 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 2rem;
+    background-color: #333;;
+    border-color: #e1e1e1;
+    color: white;
+    margin: auto;
+    float: left; 
+    width: 100%;
+    .title-logo {
+        .title {
+            h1{
+             font-size: 3rem;
+             line-height: 1rem;
+            }
+            h2{
+              font-size: 2rem;
+              line-height: 1rem;
+            }
+            p{
+               font-size: 1.5rem;
+               font-weight: normal;
+               line-height: 1rem;
+            }
+        }
+        .logo {
+          //justify-content: space-between;
+          //display: flex ;
+         // background-color: yellow;
+          gap:2rem;
+          display: flex;
+          //size: 3rem;
+          font-size: 2rem;
+
+          .facebook{
+           // font-size: 3rem;
+          }
+          .twitter{
+
+          }
+          .youtube{
+
+          }
+          .pinterest{
+
+          }
+          .instagram{
+
+          }
+        }
+    }
+
+
+    .recentposts {
+        .recentpost_title{
+
+        }
+        .post_1{
+
+        }
+        .date_1{
+
+        }
+        .post_2{
+
+        }
+        .date_2{
+
+        }
+        .post_3{
+
+        }
+        .date_3{
+
+        }
+    }
+
+
+    .gallery_on_flickr {
+        //background-color: yellowgreen;
+       // align-items: center;
+        //justify-content: center;
+        padding-top: 3rem;
+        .first_3_img{
+            img{
+                width: 7rem;
+                height: 7rem;
+                padding: 0.5rem;
+            }
+        }
+        .second_3_img{
+            img{
+                width: 7rem;
+               height: 7rem;
+               padding: 00.5rem;
+            }
+        }
+    }
+
+
+    .contact_info {
+        .contacttitle{
+            h1{
+
+            }
+        }
+        .address_info{
+            .location{
+
+            }
+            .address{
+
+            }
+        }
+        .call_info {
+           background-color: yellowgreen;
+          // justify-content: space-between;
+          // display: grid;
+           //grid-template-columns: auto auto ;
+           //align-items: flex-start;
+           //flex-direction: row;
+           //display: grid;
+          // padding-top: 0.5em;
+          //padding-bottom: 0.5em;
+
+
+           
+            .call_icon{
+            
+            }
+            //gap:1rem;
+            .call_number{
+
+            }
+        }
+        .email_info {
+            .email_icon{
+
+            }
+            .email_id{
+
+            }
+        }
+        .site_info {
+            .site_icon{
+
+            }
+            .site_name{
+
+            }
+        }
+    }
+
+}

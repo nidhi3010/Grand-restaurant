@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Footer from '../components/footer/footer.component';
+
 
 
 import Header from '../components/header/header.component';
@@ -11,7 +13,9 @@ import Reservation from '../components/reservation/reservation.component';
 import './homepage.styles.scss';
 
 const HomePage = () => (
+    
     <div className='homepage'>
+        
         <div className='backgroundimg'>
             <img src="https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg">
             </img>
@@ -34,9 +38,12 @@ const HomePage = () => (
         </div>
         <MenuImg />
          <Directory />
-        
+        <div className='maincoursetitle'>
+          <h1>MAIN COURSE</h1>
+        </div>
         <CourseContent />
         <Reservation />
+        <Footer />
     </div>  
 
 

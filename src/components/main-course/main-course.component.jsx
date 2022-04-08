@@ -6,6 +6,7 @@ import './main-course.styles.scss';
 const MainCourse = ({title, ingre, price}) => (
     
         <div className='main-course'>
+          
            <div className='content'>
              <h2 className='title'>{title}</h2>
 

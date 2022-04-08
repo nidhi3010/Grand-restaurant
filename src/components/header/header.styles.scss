@@ -21,9 +21,15 @@
     padding-left: 4rem;
     text-align: left;
     line-height: 0rem;
-
+   h1{
+       font-size: 3rem;
+   }
+   span{
+       font-size: 2rem;
+   }
+   //gap: 2rem;
 }
-
+  //gap: 5rem;
 .options {
     width: 35rem;
     height: 10rem;
@@ -31,9 +37,14 @@
     align-items: center;
     padding-right: 0rem;
     float: right;
+    font-size: 2rem;
+    color: white;
+    //position: relative;
+   // background-color: white;
     .option{
         padding: 1rem 1rem;
-        color: white;
+        //color: black
+    
 
     }
 }

@@ -1,11 +1,12 @@
 .homepage{
     
    .backgroundimg{
-      height: 70rem;
+      //height: 70rem;
       img{
          width: 100%;
-         height: 70rem;
-         filter: brightness(90%);
+         height: 50rem;
+         filter: brightness(80%);
+         transition: 0.3s ease-in-out;
 
       }
    }
@@ -14,8 +15,8 @@
     top: 5rem;
     display: flex;
     flex-direction: column;
-    padding-left: 4rem ;
-    padding-top: 5rem;
+    padding-left: 7rem ;
+    padding-top: 7rem;
     display: flex;
     text-align: start;
     line-height:0rem;
@@ -24,7 +25,13 @@
     h2{
        color: burlywood;
        font-family: 'Dancing Script', cursive;
+       font-size: 5rem;
+    }
+    h1{
        font-size: 4rem;
+    }
+    p{
+       font-size: 2rem;
     }
    }
 
@@ -54,6 +61,17 @@
          color: darkslategray;
       }
 
+   }
+
+   .maincoursetitle {
+      h1{
+        justify-content: center;
+        align-items: center;
+        //background-color: yellow;
+        padding-left: 100rem;
+        font-size: 3rem;
+        text-decoration: underline;
+      }
    }
     
     
