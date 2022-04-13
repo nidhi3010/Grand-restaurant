@@ -1,0 +1,42 @@
+.upper-header {
+    //position: relative;
+    background: #F8C471 ;
+    height: 3rem;
+    .address-contact {
+      // margin-left: 30rem;
+      color: white;
+        .header-address {
+            display: flex;
+            margin-left: 30rem;
+            .adress-logo{
+               margin-top: 0.7rem;
+               font-size:1.5rem;
+            }
+            gap:1rem;
+            .add-info{
+                 font-size: 1.5rem;
+                 margin-top: 0.5rem;
+        }
+    }
+        .header-contact {
+        display: flex;
+        margin-left: 70rem;
+        margin-top: -4rem;
+        .call_logo{
+            //margin-top: -3rem;
+            font-size:1.5rem;
+            margin-top: 1rem;
+            
+        }
+        gap:1rem;
+        .phone-number{
+            p{
+            font-size: 3rem;
+            //margin-top: -6rem;
+            margin-bottom: 3rem;
+            //background-color: rebeccapurple;
+            }
+        }
+    }
+}
+}

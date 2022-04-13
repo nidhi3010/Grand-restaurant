@@ -1,0 +1,33 @@
+.lower-footer {
+   // display: flex;
+   background: #1b1b1b;
+   background: #1b1b1b;
+   width: 100%;
+   justify-content: space-between;
+   display: flex;
+   
+    .copyright {
+     // float: left;
+     padding: 1rem 1rem;
+     color: #999999;
+     float: left;
+     
+    }
+
+ 
+    
+
+    .footer-options {
+        justify-content: space-between;
+        display: flex;
+       // padding: 1rem;
+        //width: 100%;
+        //float:right;
+        .options {
+           padding: 1rem 1rem;
+           color: #fff;
+           float:right;
+           font-size: 1rem;
+        }
+    }
+}

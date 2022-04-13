@@ -19,14 +19,15 @@ class CourseContent extends React.Component {
         const { data } = this.state;
         return (
             <div className='course-content' >
-              
-              {data.map (({ id, title, ingre, price}) => (
+
+              {
+                  data.map (({ id, title, ingre, price}) => (
                   <MainCourse key={id} title={title} ingre={ingre} price={price} />
               ))}
-              
+            
 
 
-        
+             
             </div>
         )
               }

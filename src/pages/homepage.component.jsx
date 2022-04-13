@@ -5,21 +5,24 @@ import Footer from '../components/footer/footer.component';
 
 
 import Header from '../components/header/header.component';
+import LowerFooter from '../components/lower-footer/lower-footer.component';
 import CourseContent from '../components/maincourse-content/maincourse-content.component';
 import Directory from '../components/menu-directory/menu-directory.component';
 import MenuImg from '../components/menusimg/menusimg.component';
 import Reservation from '../components/reservation/reservation.component';
+import UpperHeader from '../components/upper-header/upper-header.component';
 
 import './homepage.styles.scss';
 
 const HomePage = () => (
     
     <div className='homepage'>
-        
+        <UpperHeader />
         <div className='backgroundimg'>
-            <img src="https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg">
+            <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2KL6JYQYH4I6REYMIWBYVUGXPI.jpg">
             </img>
         </div>
+       
         <Header />
         <div className='contentofwelcome'>
             <h2>Welcome to</h2>
@@ -44,6 +47,7 @@ const HomePage = () => (
         <CourseContent />
         <Reservation />
         <Footer />
+        <LowerFooter />
     </div>  
 
 
