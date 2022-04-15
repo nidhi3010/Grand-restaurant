@@ -1,4 +1,5 @@
 const MAIN_COURSE_DATA =[
+
 {
     id: 1,
     title: 'BAKED POTATO PIZZA',
@@ -21,7 +22,7 @@ const MAIN_COURSE_DATA =[
     id: 4,
     title: 'LEMON-ROSEMARY CHICKEN',
     ingre: 'Chicken / Rosemary / Lemon',
-    price:  '$19.9'
+    price:  '$19.9' 
 },
 {
    id: 5,
@@ -73,6 +74,7 @@ const MAIN_COURSE_DATA =[
       ingre: 'Pork / Tenderloin / Yogurt',
       price: '$20'
   }  
-];
+]
+
 
 export default MAIN_COURSE_DATA;

@@ -24,11 +24,11 @@ const UpperHeader =() => (
         <p className='phone-number'>+65.4566743</p>
         </div>
         <div className='header-logo'>
-         <AiFillFacebook className='facebook' />
-         <AiOutlineTwitter className='twitter' />
-         <AiFillYoutube className='youtube' />
-         <FaPinterest className='pinterest' />
-         <FaInstagram className='instagram' />
+         <AiFillFacebook className='facebook-icon' />
+         <AiOutlineTwitter className='twitter-icon' />
+         <AiFillYoutube className='youtube-icon' />
+         <FaPinterest className='pinterest-icon' />
+         <FaInstagram className='instagram-icon' />
         </div>
       </div>
     </div>

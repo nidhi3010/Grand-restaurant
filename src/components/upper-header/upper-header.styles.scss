@@ -2,6 +2,7 @@
     //position: relative;
     background: #F8C471 ;
     height: 3rem;
+    width: 100%;
     .address-contact {
       // margin-left: 30rem;
       color: white;
@@ -38,5 +39,31 @@
             }
         }
     }
+
+       .header-logo {
+           float:right;
+           margin-top: -2.2rem;
+           display: flex;
+           gap: 1rem;
+           font-size: 1.5rem;
+          margin-right: 35rem;
+          // gap:0.5rem;
+           .facebook-icon{
+             
+           }
+           //gap: 1rem;
+           .twitter-icon{
+              
+           }
+           .youtube-icon{
+
+           }
+           .pinterest-icon{
+
+           }
+           .instagram-icon{
+
+           }
+       }
 }
 }

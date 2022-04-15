@@ -1,6 +1,6 @@
 .main-course {
   //background-color: orange;
-  width: 200rem;
+  width: 100%;
   // display: grid;
   // grid-template-columns: 1fr 1fr 1fr;
    .content {
@@ -9,7 +9,8 @@
        font-style: inherit;
        flex-direction: row;
        line-height: 3rem;
-       width: 200rem;
+       width: 100%;
+       margin-left: 2rem;
         
        .title {
           margin: 0;
@@ -19,9 +20,9 @@
         }
        .ingre-price {
            display: flex;
-           justify-content: space-between;
+          // justify-content: space-between;
            //width:175rem;
-          width: 185rem;
+          width: 30rem;
           //background-color: yellow;
        .ingre {
          font-size: 1.5rem;
@@ -32,7 +33,9 @@
        
        .price {
             font-size: 1.5rem;
-            right: 0;
+            //right: 0;
+            margin-left: 10rem;
+
             
          //   background-color: blue;
         

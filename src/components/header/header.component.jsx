@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CustomButton from '../custom-button/custom-button.component';
+import SideMenuBar from '../side-menudrawer/side-menudrawer.component';
 
 import './header.styles.scss';
 
@@ -18,6 +19,7 @@ const Header = () => (
             <div className='option'>NEWS</div>
             <div className='option'>FEATURES</div>
             <CustomButton />
+            <SideMenuBar />
         </div>
 
     </div>

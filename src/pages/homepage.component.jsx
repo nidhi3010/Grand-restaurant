@@ -48,6 +48,8 @@ const HomePage = () => (
         <Reservation />
         <Footer />
         <LowerFooter />
+       
+
     </div>  
 
 
