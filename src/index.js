@@ -4,11 +4,38 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  StyledEngineProvider,
+  ThemeProvider,
+  createTheme
+} from '@mui/material/styles';
+
+
+const theme = createTheme({
+  components: {
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          background: '#000000'
+        }
+      }
+    }
+  }
+});
+
+
+
+
+
+
 ReactDOM.render(
-  
-  //<React.StrictMode>
-    <App />,
-  //</React.StrictMode>,
+  <React.StrictMode>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <App />,
+      </ThemeProvider>
+    </StyledEngineProvider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,17 +1,176 @@
 .drawer-box {
-    .search-box {
+   width: 100%;
+   margin-left: 3rem;
+   color: #999;
+     
+    .icon-searchbox{  
+             // background-color: darkturquoise;
+              width:20rem;
+              size: 2rem;
+              margin-top: 2rem;
+             // position: relative;
+              display: flex;
+            height: 4rem;
+        
         .search{
-
+         //width: 100%;
+         line-height: 5rem;  
+         border: none;
+         outline: none;
+         background-color: #333;
+        // height: 5rem;
+        // width: 20rem;
+         // position: relative;
+         
         }
         .search_icon{
-
+            
+          font-size: 1.5rem;
+          padding-top: 1.5rem;
+          padding-left: 1.4rem;
+          height: 2.5rem;
+          background-color: #333;
+        
         }
-    }
+}
+
     
     .remove {
 
         cursor: pointer;
-        margin-left: 3rem;
-       // display: flex;
+        margin-left: 4rem;
+        float: right;
+        justify-content: space-between;
+        margin-top: -3rem;
+        margin-right:7rem;
+        font-size: 2.5rem;
+       font-weight: bolder;
+        //background-color: chocolate;
+       
     }
+    .bar-menus{
+          font-size: 2.5rem;
+          line-height: 4rem;
+          margin-top: 2rem;
+
+          
+        .option_1{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_1{
+                transform: scale(1.2);
+                }
+            }
+           
+            .nextround_1{
+               
+                float: right;
+               margin-right: 7rem;
+           }
+        }
+
+
+
+        .option_2{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_2{
+                transform: scale(1.2);
+                }
+            }
+            
+            .nextround_2{
+                float: right;
+                margin-right: 7rem;
+            }
+        }
+
+        .option_3{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_3{
+                transform: scale(1.2);
+                }
+            }
+
+            .nextround_3{
+                float: right;
+                margin-right: 7rem;
+            }
+        }
+
+        .option_4{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_4{
+                transform: scale(1.2);
+                }
+            }
+        }
+
+        .option_5{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_5{
+                transform: scale(1.2);
+                }
+            }
+            .nextround_4{
+                float: right;
+                margin-right: 7rem;
+            }
+        }
+
+        .option_6{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #fff;
+                .option_6{
+                transform: scale(1.2);
+                }
+            }
+            .nextround_5{
+                float: right;
+                margin-right: 7rem;
+            } 
+
+        }
+    }
+
+    .gallery{
+        margin-top: 7rem;
+        h1{}
+        .first_4_img{
+            img{
+                width: 7rem;
+               height: 7rem;
+               padding: 0.4rem;
+            }
+        }
+        .second_4_img{
+            img{
+                width: 7rem;
+                height: 7rem;
+                padding: 0.4rem;
+            }
+        }
+    }
+        
+            
+                
+
+
+
+
 }
