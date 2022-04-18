@@ -18,14 +18,15 @@
     margin-top: 2rem;
     align-items: center;
     
-     background-color: azure;
+     background-color: #fff;
      width: 100%;
      transform: translateY(0);
   transition: transform 0.6s ease;
 .title{
     align-items: flex-start;
     width:100%;
-    padding-top: 2rem;
+    padding-top: 0rem;
+    //padding-top: 2rem;
     padding-left: 4rem;
     text-align: left;
     line-height: 0rem;

@@ -27,9 +27,10 @@ const HomePage = () => (
             </img>
          
         </div>
-       <HomeDropDown />
-       <MenuDropDown />
-       <PagesDropDown />
+
+
+       
+       
         <Header2 />
         <div className='contentofwelcome'>
             <h2>Welcome to</h2>
