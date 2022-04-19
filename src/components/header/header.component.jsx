@@ -1,13 +1,22 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
+
+
+import { connect } from 'react-redux';
+
 import CustomButton from '../custom-button/custom-button.component';
 import SideMenuBar from '../side-menudrawer/side-menudrawer.component';
+
+import { toggleHomeHidden } from '../../redux/home/home.actions';
+import { toggleMenuHidden } from '../../redux/menu/menu.actions';
+import { togglePageHidden } from '../../redux/page/page.actions';
+import { toggleNewsHidden } from '../../redux/news/news.actions';
 
 import './header.styles.scss';
 
 
-function Header2() {
+function Header2({toggleHomeHidden, toggleMenuHidden, togglePageHidden, toggleNewsHidden}) {
     const [header, setHeader] = useState("header");
   
     const listenScrollEvent = event => {
@@ -26,15 +35,6 @@ function Header2() {
   
 
 
-
-
-
-
-
-
-
-// const Header = () => (
-
 return (
     <div className='header'>
         <div className='title'>
@@ -42,11 +42,11 @@ return (
             <span>RESTAURANT</span>
         </div>
         <div className='options'>
-            <div className='option'>HOME</div>
-            <div className='option'>MENU</div>
-            <div className='option'>PAGES</div>
+            <div className='option' onMouseEnter={toggleHomeHidden} onMouseLeave={toggleHomeHidden}>HOME</div>
+            <div className='option' onMouseEnter={toggleMenuHidden} onMouseLeave={toggleMenuHidden} >MENU</div>
+            <div className='option' onMouseEnter={togglePageHidden} onMouseLeave={togglePageHidden}>PAGES</div>
             <div className='option'>DELIVERY</div>
-            <div className='option'>NEWS</div>
+            <div className='option' onMouseEnter={toggleNewsHidden} onMouseLeave={toggleNewsHidden}>NEWS</div>
             <div className='option'>FEATURES</div>
             <CustomButton />
             <SideMenuBar />
@@ -55,6 +55,19 @@ return (
     </div>
 
 );
+
+
+
+
 }
 
-export default Header2;
+
+
+const mapDispatchToProps = dispatch => ({
+  toggleHomeHidden: () => dispatch(toggleHomeHidden()),
+  toggleMenuHidden: () => dispatch(toggleMenuHidden()),
+  togglePageHidden: () => dispatch(togglePageHidden()),
+  toggleNewsHidden: () => dispatch(toggleNewsHidden())
+});
+
+export default connect(null, mapDispatchToProps)(Header2);

@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import store from './redux/store';
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+
+
+
+
 import {
   StyledEngineProvider,
   ThemeProvider,
@@ -29,13 +36,18 @@ const theme = createTheme({
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <App />,
-      </ThemeProvider>
-    </StyledEngineProvider>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <React.StrictMode>
+        <StyledEngineProvider injectFirst>
+          <ThemeProvider theme={theme}>
+            <App />,
+          </ThemeProvider>
+        </StyledEngineProvider>
+      </React.StrictMode>
+    </BrowserRouter>
+  </Provider>,
+
   document.getElementById('root')
 );
 

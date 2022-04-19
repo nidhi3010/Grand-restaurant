@@ -3,7 +3,7 @@ import React from 'react';
 import Footer from '../components/footer/footer.component';
 
 
-
+import { connect } from 'react-redux';
 import Header2 from '../components/header/header.component';
 import HomeDropDown from '../components/home-drop/home-drop.component';
 import LowerFooter from '../components/lower-footer/lower-footer.component';
@@ -11,13 +11,15 @@ import CourseContent from '../components/maincourse-content/maincourse-content.c
 import Directory from '../components/menu-directory/menu-directory.component';
 import MenuDropDown from '../components/menu-drop/menu-drop.component';
 import MenuImg from '../components/menusimg/menusimg.component';
-import PagesDropDown from '../components/pages-drop/pages-drop.component';
+import PageDropDown from '../components/page-drop/page-drop.component';
+import NewsDropDown from '../components/news-drop/news-drop.component';
 import Reservation from '../components/reservation/reservation.component';
 import UpperHeader from '../components/upper-header/upper-header.component';
 
 import './homepage.styles.scss';
 
-const HomePage = () => (
+
+const HomePage = ({hidden, hidden2, hidden3,hidden4}) => (
     
     <div className='homepage'>
    
@@ -27,9 +29,20 @@ const HomePage = () => (
             </img>
          
         </div>
-
-
+        {
+            hidden ? null : <HomeDropDown />
+        }
        
+        {
+            hidden2 ? null : <MenuDropDown />
+        }
+        
+        {
+            hidden3 ? null : <PageDropDown />
+        }
+        {
+            hidden4 ? null : <NewsDropDown />
+        }
        
         <Header2 />
         <div className='contentofwelcome'>
@@ -65,4 +78,9 @@ const HomePage = () => (
 
 )
 
-export default HomePage;
+const mapStateToProps = ({ home: {hidden}, menu:{hidden2}, page:{hidden3}, news:{hidden4} }) => 
+({
+hidden,hidden2,hidden3,hidden4
+})
+
+export default connect(mapStateToProps)(HomePage);
