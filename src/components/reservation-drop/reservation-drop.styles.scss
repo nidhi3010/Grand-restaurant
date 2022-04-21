@@ -1,67 +1,102 @@
 .reservation-drop {
     border:1px solid #fff;
-    background-color: black;
+    background-color: #222222;
     position: relative;
     box-sizing: border-box;
-    width: 100%;
+    width: 80rem;
     height: 100%;
+    //  margin-top: -50rem;
+    margin-left: 140rem;
     z-index: 999;
     margin: auto;
     overflow: scroll;
     text-align: center;
     padding: 30px;
     vertical-align: baseline;
-  //  display: block;
+    
+    //display: block;
     line-height: 3rem;
     font-size: 1.5rem;
     column-gap: 4rem;
     color: #fff;
     .table-booking{
+        font-weight: normal;
         h2{
-
+           color: #cfa670;
+           font-family:Kristi, cursive;
+           font-size: 4rem;
         }
+        line-height: 1.5rem;
         h1{
-
+            font-family: Lato, Helvetica;
+        
         }
     }
+
     .datails {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        .part-1{
-            
-            .name_details{
+        column-gap: 8rem;
+       
+        .part_1{
+             .name_details{
                text-align: start;
+               display: grid;
+              // line-height: 7rem;
+              label{
+              
+                
             }
-            text-align: start;
+           line-height: 7rem;
+              }
+             
+              input{
+                
+            }
+            
             .date_details {
-
+              display: grid;
+              text-align: start;
+              line-height: 7rem;
             }
         }
-        .part-2 {
-            
-            .email_details{
-               
+        
+
+        .part_2 {
+             .email_details{
+                display: grid;
+                text-align: start;
+                line-height: 7rem;
             }
-            text-align: start;
+          
             .time_details{
-
+                display: grid;
+                text-align: start;
+               line-height: 6rem;
+            
             }
         }
 
-        .part-3 {
-            text-align: start;
-            .phone_details {
-
-            }
+        .part_3 {
+             .phone_details {
+                display: grid;
+                text-align: start;
+                line-height: 7rem;
             
-            .seats-details{
-
+            }
+             .seats_details{
+                display: grid;
+                text-align: start;
+                line-height: 9rem;
             }
         }
     }
-
+      
         .special-requests{
-
+            display: grid;
+            text-align: start;
+            padding: 6rem  0rem;
+            line-height: 7rem;
         }
     
 
@@ -69,6 +104,7 @@
       
        button{
            justify-content: center;
+            background-color: #cfa670;
        }
     }
 }

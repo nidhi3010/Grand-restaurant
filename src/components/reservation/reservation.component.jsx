@@ -31,7 +31,7 @@ const Reservation = () => {
 
         <div className='calendar'>
           <AiOutlineCalendar className='cal' size="3rem" />
-          <Cale className='cale' />
+          <input type="date" id="cal" name="calndr" />
         </div>
 
         <div className='clocktime'>
