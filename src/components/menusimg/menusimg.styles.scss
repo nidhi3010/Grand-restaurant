@@ -4,39 +4,45 @@
     justify-content: space-between;
    // position: fixed;
 
-    img{
+    //background-image{
+      background-image: url("https://media.vanityfair.com/photos/612f733f176f73ff280b7614/master/w_1600%2Cc_limit/Robuchon2765.jpg");
         width: 100%;
         height: 70rem;
+        //background-size: auto;
+        //background-size: 2000px 2000px;
+          background-size: 100% 100%;
         filter: brightness(90%);
         justify-content: space-between;
         
-        // background-repeat: no-repeat;
+         background-repeat: no-repeat;
         background-attachment: fixed;
-        // background-size: cover;
+         background-size: cover;
         //position: relative;
         //z-index: -1;
-      } 
+     // } 
     
       h2{
             position: absolute;
-            top:141rem;
+            top: 60rem;
+           // top:141rem;
             //top:162rem;
             text-align: center;
-            left:103rem;
+            left:97rem;
             color: burlywood;
             font-family: 'Dancing Script', cursive;
             font-size:4rem;
+            z-index: 1;
          }
       
     h1{
         position: absolute;
-        top: 146rem;
+        top: 66rem;
         //top: 167rem;
         text-align: center;
-        left: 100rem;
+        left: 93rem;
         font-size: 4rem;
         font-family: 'Montserrat',sans-serif;  
-     
+        z-index: 1;
 
     }
 

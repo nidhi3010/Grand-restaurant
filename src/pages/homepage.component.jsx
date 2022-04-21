@@ -13,13 +13,15 @@ import MenuDropDown from '../components/menu-drop/menu-drop.component';
 import MenuImg from '../components/menusimg/menusimg.component';
 import PageDropDown from '../components/page-drop/page-drop.component';
 import NewsDropDown from '../components/news-drop/news-drop.component';
+import FeaturesDropDown from '../components/features-drop/features-drop.component';
 import Reservation from '../components/reservation/reservation.component';
 import UpperHeader from '../components/upper-header/upper-header.component';
+import ReservationDropDown from '../components/reservation-drop/reservation-drop.component';
 
 import './homepage.styles.scss';
 
 
-const HomePage = ({hidden, hidden2, hidden3,hidden4}) => (
+const HomePage = ({hidden, hidden2, hidden3, hidden4, hidden5}) => (
     
     <div className='homepage'>
    
@@ -43,8 +45,12 @@ const HomePage = ({hidden, hidden2, hidden3,hidden4}) => (
         {
             hidden4 ? null : <NewsDropDown />
         }
+        {
+           hidden5 ? null : <FeaturesDropDown />
+        }
        
         <Header2 />
+        <ReservationDropDown />
         <div className='contentofwelcome'>
             <h2>Welcome to</h2>
             <h1>GRANDRESTAURANT</h1>
@@ -78,9 +84,9 @@ const HomePage = ({hidden, hidden2, hidden3,hidden4}) => (
 
 )
 
-const mapStateToProps = ({ home: {hidden}, menu:{hidden2}, page:{hidden3}, news:{hidden4} }) => 
+const mapStateToProps = ({ home: {hidden}, menu:{hidden2}, page:{hidden3}, news:{hidden4}, features:{hidden5} }) => 
 ({
-hidden,hidden2,hidden3,hidden4
+hidden,hidden2,hidden3,hidden4,hidden5
 })
 
 export default connect(mapStateToProps)(HomePage);

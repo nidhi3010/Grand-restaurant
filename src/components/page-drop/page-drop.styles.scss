@@ -3,7 +3,7 @@
     height: 20rem;
     border:1px solid black;
     background-color: black;
-    margin-top: -43rem;
+    margin-top: -40rem;
     margin-left: 80rem;
     position: absolute;
     z-index: 1200;
@@ -17,6 +17,9 @@
     column-gap: 40px;
     column-rule-style: solid;
     column-rule-width: 1px;
+    // :hover{
+    //   background-color:#999;
+    // }
 
     .general-pages{
         color: #fff;

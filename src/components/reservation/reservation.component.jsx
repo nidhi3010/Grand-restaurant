@@ -11,22 +11,22 @@ import InputBox from './inputbox.component';
 //import DropdownExampleClearable from './person-menu.component';
 import PersonMenu from './person-menu.component';
 
-//WiTime9
+
 
 const Reservation = () => {
   return (
     <div className='reservation'>
-      <div className='reserimg'>
-        <img src="https://wallpaperaccess.com/full/3353887.jpg" />
-      </div>
+      
 
       <h2>Online</h2>
       <h1>RESERVATION</h1>
+      
+      <div className='icons-table-resr'>
       <div className='table'>
         <p>Reservation Form Powered by OpenTable</p>
         <span>1.800.456.6743  contact@grandrestaurant.com</span>
       </div>
-
+      
       <div className='icons'>
 
         <div className='calendar'>
@@ -48,6 +48,7 @@ const Reservation = () => {
 
       <div className='findtable'>
         <button>FIND A TABLE</button>
+      </div>
       </div>
 
     </div>

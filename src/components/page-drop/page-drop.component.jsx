@@ -2,7 +2,6 @@ import React from 'react';
 
 import './page-drop.styles.scss';
 
-
 const PageDropDown = () => (
   <div className='pages-dropdown'>
     <div className='general-pages'>

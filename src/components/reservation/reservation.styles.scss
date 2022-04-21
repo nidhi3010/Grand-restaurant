@@ -1,37 +1,53 @@
 .reservation {
+     background-image: url("https://wallpaperaccess.com/full/3353887.jpg");
+     background-size: 100% 100%;
+     filter: brightness(90%);
+     justify-content: space-between;
      
-    .reserimg {
-      img{
-        width: 100%;
-        height: 70rem;
-        filter: brightness(90%);
-      }
-    }
+      background-repeat: no-repeat;
+     background-attachment: fixed;
+      background-size: cover;
+      width: 100%;
+      height: 90rem;
+
+    // .reserimg {
+    //   img{
+       
+    //     filter: brightness(90%);
+    //   }
+    // }
    h2{
      
     position: absolute;
-    top:307rem;
+    top:76rem;
     //top:352rem;
     text-align: center;
-    left:93rem;
+    left:91rem;
     color: burlywood;
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
    }
    h1{
     position: absolute;
-    top: 313rem;
+    top: 82rem;
     //top: 358rem;
     text-align: center;
-    left: 84rem;
+    left: 82rem;
     font-size: 4rem;
     font-family: 'Montserrat',sans-serif;  
    }
+
+  .icons-table-resr{
+    background-color: #fff;
+    height: 25rem;
+    width: 100%;
    .table {
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #000;
+    //background-color: azure;
       p{
            font-size: 2rem;
            justify-content: center;
@@ -48,6 +64,7 @@
      padding: 3rem;
      display: flex;
      flex-direction: row;
+     //background-color: azure;
 
      .calendar {
        align-items: flex-start;
@@ -96,8 +113,9 @@
 
 .findtable {
   justify-content: center;
-  //background-color: blue;
+  //background-color: azure;
   
+
   align-items: center;
  //display: flex;
     button {
@@ -115,11 +133,12 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color:black;
+    background-color:#333;
     //left: 4rem;
     margin-left: 100rem;
   }
 }
+  }
 }  
   
     
