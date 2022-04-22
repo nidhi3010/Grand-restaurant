@@ -16,4 +16,6 @@ const CustomButton = ({toggleReservHidden}) =>
  const mapDispatchToProps = dispatch => ({
  toggleReservHidden: () => dispatch(toggleReservHidden())
  });
+ 
 export default connect(null,mapDispatchToProps)(CustomButton);
+
