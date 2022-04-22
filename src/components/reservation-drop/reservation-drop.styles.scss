@@ -5,20 +5,25 @@
     box-sizing: border-box;
     width: 80rem;
     height: 100%;
-    //  margin-top: -50rem;
+    // margin-top: -40rem;
     margin-left: 140rem;
-    z-index: 999;
+    z-index: 2;
     margin: auto;
     overflow: scroll;
     text-align: center;
     padding: 30px;
     vertical-align: baseline;
-    
-    //display: block;
     line-height: 3rem;
     font-size: 1.5rem;
     column-gap: 4rem;
     color: #fff;
+    // display: none;
+    // position: fixed;
+    // cursor: pointer;
+    .close-button{
+        float: right;
+    }
+
     .table-booking{
         font-weight: normal;
         h2{
@@ -37,6 +42,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 8rem;
+       // display: table-column;
        
         .part_1{
              .name_details{

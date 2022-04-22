@@ -5,6 +5,7 @@ import featuresReducer from './features/features.reducer';
 import menuReducer from './menu/menu.reducer';
 import newsReducer from './news/news.reducer';
 import pageReducer from './page/page.reducer';
+import reservReducer from "./reserv/reserv.reducer";
 
 
 export default combineReducers({
@@ -12,5 +13,6 @@ export default combineReducers({
     features: featuresReducer,
     menu: menuReducer,
     news: newsReducer,
-    page: pageReducer
+    page: pageReducer,
+    reserv: reservReducer
 });

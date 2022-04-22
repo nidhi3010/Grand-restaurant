@@ -1,5 +1,5 @@
-// import ReservActionTypes from "./reserv.types";
+import ReservActionTypes from "./reserv.types";
 
-// export const toggleReservHidden = () =>({
-//     type: ReservActionTypes.TOGGLE_RESERV_HIDDEN
-// });
+export const toggleReservHidden = () =>({
+    type: ReservActionTypes.TOGGLE_RESERV_HIDDEN
+});

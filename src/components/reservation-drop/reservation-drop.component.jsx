@@ -3,12 +3,16 @@ import React from 'react';
 //import Cale from '../reservation/calendar.copmponent';
 import InputBox from '../reservation/inputbox.component';
 import PersonMenu from '../reservation/person-menu.component';
+import { AiOutlineClose } from "react-icons/ai";
+
+import { toggleReservHidden } from '../../redux/reserv/reserv.actions';
 
 import './reservation-drop.styles.scss';
+import { connect } from 'react-redux';
 
-const ReservationDropDown = () => (
+const ReservationDropDown = ({toggleReservHidden}) => (
     <div className='reservation-drop'>
-    
+      <AiOutlineClose className='close-button' size="3rem" onClick={toggleReservHidden} />
         <div className='table-booking'>
             <h2>Table</h2>
             <h1>BOOKING</h1>
@@ -62,4 +66,8 @@ const ReservationDropDown = () => (
     </div>
 );
 
-export default ReservationDropDown;
+const mapDispatchToProps = dispatch => ({
+    toggleReservHidden: () => dispatch(toggleReservHidden())
+    });
+
+export default connect(null, mapDispatchToProps)(ReservationDropDown);

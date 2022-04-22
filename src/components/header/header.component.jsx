@@ -13,14 +13,16 @@ import { toggleMenuHidden } from '../../redux/menu/menu.actions';
 import { togglePageHidden } from '../../redux/page/page.actions';
 import { toggleNewsHidden } from '../../redux/news/news.actions';
 import { toggleFeaturesHidden } from '../../redux/features/features.actions';
+import { toggleReservHidden } from '../../redux/reserv/reserv.actions';
 
 import './header.styles.scss';
+import ReservationDropDown from '../reservation-drop/reservation-drop.component';
 
 
 
 
 
-function Header2({toggleHomeHidden, toggleMenuHidden, togglePageHidden, toggleNewsHidden, toggleFeaturesHidden}) {
+function Header2({toggleHomeHidden, toggleMenuHidden, togglePageHidden, toggleNewsHidden, toggleFeaturesHidden, toggleReservHidden}) {
  
     const [header, setHeader] = useState("header");
   
@@ -55,6 +57,7 @@ return (
             <div className='option' onMouseEnter={toggleNewsHidden} onMouseLeave={toggleNewsHidden}>NEWS</div>
             <div className='option' onMouseEnter={toggleFeaturesHidden} onMouseLeave={toggleFeaturesHidden}>FEATURES</div>
             <CustomButton />
+               
             <SideMenuBar />
         </div>
 
@@ -74,7 +77,8 @@ const mapDispatchToProps = dispatch => ({
   toggleMenuHidden: () => dispatch(toggleMenuHidden()),
   togglePageHidden: () => dispatch(togglePageHidden()),
   toggleNewsHidden: () => dispatch(toggleNewsHidden()),
-  toggleFeaturesHidden: () => dispatch(toggleFeaturesHidden())
+  toggleFeaturesHidden: () => dispatch(toggleFeaturesHidden()),
+  
 
 });
 

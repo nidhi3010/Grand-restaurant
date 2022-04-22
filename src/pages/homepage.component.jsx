@@ -21,11 +21,12 @@ import ReservationDropDown from '../components/reservation-drop/reservation-drop
 import './homepage.styles.scss';
 
 
-const HomePage = ({hidden, hidden2, hidden3, hidden4, hidden5}) => (
+const HomePage = ({hidden, hidden2, hidden3, hidden4, hidden5, hidden6}) => (
     
     <div className='homepage'>
    
         <UpperHeader />
+        <Header2 />
         <div className='backgroundimg'>
             <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2KL6JYQYH4I6REYMIWBYVUGXPI.jpg">
             </img>
@@ -48,9 +49,12 @@ const HomePage = ({hidden, hidden2, hidden3, hidden4, hidden5}) => (
         {
            hidden5 ? null : <FeaturesDropDown />
         }
-       
-        <Header2 />
-        <ReservationDropDown />
+        {
+            hidden6 ? null : <ReservationDropDown />
+        }
+        
+        
+        
         <div className='contentofwelcome'>
             <h2>Welcome to</h2>
             <h1>GRANDRESTAURANT</h1>
@@ -84,9 +88,9 @@ const HomePage = ({hidden, hidden2, hidden3, hidden4, hidden5}) => (
 
 )
 
-const mapStateToProps = ({ home: {hidden}, menu:{hidden2}, page:{hidden3}, news:{hidden4}, features:{hidden5} }) => 
+const mapStateToProps = ({ home: {hidden}, menu: {hidden2}, page: {hidden3}, news: {hidden4}, features: {hidden5}, reserv: {hidden6} }) => 
 ({
-hidden,hidden2,hidden3,hidden4,hidden5
+hidden,hidden2,hidden3,hidden4,hidden5,hidden6
 })
 
 export default connect(mapStateToProps)(HomePage);
