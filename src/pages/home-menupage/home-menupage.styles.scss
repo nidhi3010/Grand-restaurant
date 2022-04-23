@@ -1,0 +1,193 @@
+.home-menupage {
+    width: 100%;
+    .backimg{
+        img{
+            width: 100%;
+         height: 70rem;
+         filter: brightness(90%);
+         
+         //position: absolute;
+        }
+    }
+    .welcome-content{
+        position: absolute;
+        top: 5rem;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30rem;
+        padding-top: 35rem;
+        display: flex;
+        text-align: start;
+        line-height:0rem;
+        color: white;
+    
+        h2{
+           color: #cfa670;;
+           font-family: 'Dancing Script', cursive;
+           font-size: 5rem;
+        }
+        h1{
+           font-size: 4rem;
+        }
+        p{
+           font-size: 2rem;
+           letter-spacing: 0.2rem;
+        }
+       }
+       .scroll-downs{
+        position: absolute;
+        top: 0;
+        padding-top: 60rem;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width :34px;
+        height: 55px;
+       }
+           .mousey{
+            width: 0.2px;
+            padding: 10px 15px;
+            height: 30px;
+            border: 3px solid #fff;
+            border-radius: 25px;
+            opacity: 0.75;
+            box-sizing: content-box;
+           }
+               .scroller{
+                width: 3px;
+                height: 10px;
+                border-radius: 25%;
+                background-color: #fff;
+                animation-name: scroll;
+                animation-duration: 2.2s;
+                animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+                animation-iteration-count: infinite;
+               }
+               @keyframes scroll {
+                0% { opacity: 0; }
+                10% { transform: translateY(0); opacity: 1; }
+                100% { transform: translateY(15px); opacity: 0;}
+              }
+    
+    .content{
+       width: 100%;
+       padding: 3rem;
+        h1{  
+           color: #333;
+           text-align: center;
+           line-height: 4rem;
+           font-size: 30px;
+           letter-spacing: -1px;
+           font-weight: 300; 
+        }
+        p{
+            text-align: center;
+            font-size: 11px;
+            letter-spacing: 2px;
+            color: #424242;
+            font-weight: bold;
+
+
+        }
+        h2{
+            //margin-left: 93rem;
+            text-align: center;
+            font-family: Kristi;
+            font-size: 40px;
+            font-weight: 600;
+            color: #333;
+            letter-spacing: 0px;
+            line-height: 1.8rem;
+        }
+    }
+    .discover-story {
+        img{
+            margin-left: 35rem;
+           // height: 30rem;
+           width: 90rem;
+           //position: fixed;
+           
+
+        }
+        .contentofstory {
+           // position: fixed;
+            width: 40%;
+            position: absolute;
+            right: 90px;
+            padding: 40px;
+            background: rgb(255, 255, 255);
+            display: block;
+           transform: translate3d(0px, 20.6391px, 0px);
+            clear: right;
+            z-index: 2;
+            float: right;
+            box-sizing: border-box;
+          //  background-color: brown;
+            margin-top: -50rem;
+            //line-height: 2rem;
+
+            h2{
+                font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+               font-size: 50px;
+               line-height: 50px;
+               color: #cfa670; 
+               font-style: italic;
+              // position: relative;
+              letter-spacing: 0px;
+              margin-top: 0rem;
+            }
+            
+            h1{
+                font-size: 40px;
+                letter-spacing: 0px;
+                line-height: 10px;
+                text-decoration: none;
+                font-weight: normal;
+            }
+            h3{
+                color: #424242;
+                margin: 10px 0 20px 0;
+               font-size: 12px;
+               letter-spacing: 2px;
+
+            }
+            p{
+                color: #333;
+                margin-bottom: 10px;
+                font-size: 1.3rem;
+
+            }
+        }
+    }
+    .bgimg{
+        margin-top: 7rem;
+        img{
+            width: 100%;
+            height: 70rem;
+            filter: brightness(80%);
+            object-fit: cover;
+        }
+    } 
+          
+    .detail{
+            margin-top: -13rem;
+            position: absolute;
+            text-align: center;
+            margin-left: 90rem;
+            h2{
+                font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+                font-size: 5rem;
+                line-height: 1.8rem;
+                color: #cfa670;
+            }
+            h1{
+                font-size: 4rem;
+                color: #000;
+                line-height: 1rem;
+            }
+        }
+    
+           
+       
+}
