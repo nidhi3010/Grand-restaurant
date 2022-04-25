@@ -1,0 +1,11 @@
+.homedirectory-menu {
+    width: 100%;
+    //display: flex;
+    flex-wrap: wrap;
+   // justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 1100px;
+   
+  }
+  

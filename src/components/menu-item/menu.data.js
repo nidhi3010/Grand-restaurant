@@ -24,6 +24,7 @@ const MENU_DATA = [
     {
         id:4,
         imageUrl:"http://images6.fanpop.com/image/photos/40100000/pasta-food-40158225-1500-900.jpg",
+        name: "FRIED POTATOES WITH GARLIC",
         ingredients: 'Potatoes/Olive/Oil/Garlic',
         price: 12
     },

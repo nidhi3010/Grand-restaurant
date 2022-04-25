@@ -13,16 +13,15 @@ import { toggleMenuHidden } from '../../redux/menu/menu.actions';
 import { togglePageHidden } from '../../redux/page/page.actions';
 import { toggleNewsHidden } from '../../redux/news/news.actions';
 import { toggleFeaturesHidden } from '../../redux/features/features.actions';
-import { toggleReservHidden } from '../../redux/reserv/reserv.actions';
 
 import './header.styles.scss';
-import ReservationDropDown from '../reservation-drop/reservation-drop.component';
 
 
 
 
 
-function Header2({toggleHomeHidden, toggleMenuHidden, togglePageHidden, toggleNewsHidden, toggleFeaturesHidden, toggleReservHidden}) {
+
+function Header2({toggleHomeHidden, toggleMenuHidden, togglePageHidden, toggleNewsHidden, toggleFeaturesHidden}) {
  
     const [header, setHeader] = useState("header");
   

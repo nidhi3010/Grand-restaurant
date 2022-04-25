@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import MenuItems from '../menu-item/menu-item.component';
+import HomeMenuItems from "../homemenu-items/homemenu-items.component";
 
-import './menu-directory.styles.scss';
+import './homemenu-itemdirectoy.styles.scss';
 
-class Directory extends React.Component {
+class HomeMenuDirectory extends React.Component {
     constructor() {
         super();
 
@@ -74,10 +74,10 @@ class Directory extends React.Component {
     }
     render() {
         return (
-            <div className='directory-menu'>
+            <div className='homedirectory-menu'>
                {
                    this.state.MENU_DATA.map(({name, imageUrl, id, ingredients, price}) => (
-                       <MenuItems key={id} name={name} imageUrl={imageUrl} ingredients={ingredients} price={price}/>
+                       <HomeMenuItems key={id} name={name} imageUrl={imageUrl} ingredients={ingredients} price={price}/>
                     )) }
             </div>
         )
@@ -86,5 +86,5 @@ class Directory extends React.Component {
 
 }
 
-export default Directory;
+export default HomeMenuDirectory;
     

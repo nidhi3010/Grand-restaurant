@@ -1,16 +1,29 @@
 import React from 'react';
-import LowerFooter from '../../components/lower-footer/lower-footer.component';
+
+// import { connect } from 'react-redux';
+
+// import HomeDropDown from '../../components/home-drop/home-drop.component';
+// import MenuDropDown from '../../components/menu-drop/menu-drop.component';
+// import PageDropDown from '../../components/page-drop/page-drop.component';
+// import NewsDropDown from '../../components/news-drop/news-drop.component';
+// import FeaturesDropDown from '../../components/features-drop/features-drop.component';
+// import ReservationDropDown from '../../components/reservation-drop/reservation-drop.component';
+
+import HomeMenuDirectory from '../../components/homemenu-itemdirectoy/homemenu-itemdirectoy.component';
 
 import './home-menupage.styles.scss';
 
 
 
-const HomeMenuPage = () => (
+const HomeMenuPage = (hidden, hidden2, hidden3, hidden4, hidden5, hidden6) => (
     <div className='home-menupage'>
         <div className='backimg'>
             <img src="https://www.teahub.io/photos/full/266-2661568_3d-wallpapers-for-restaurant.jpg">
             </img>
         </div>
+
+        
+
         <div className='welcome-content'>
             <h2>Welcome to</h2>
             <h1>GRANDRESTAURANT</h1>
@@ -47,7 +60,19 @@ const HomeMenuPage = () => (
             <h2>Delightful</h2>
             <h1>EXPERIENCE</h1>
         </div>
+        <HomeMenuDirectory />
+        <div className='bgimg-2'>
+           <img src="https://images2.alphacoders.com/107/1074612.jpg" />
+        <div className='detail-2'>
+            <h2>Amazing</h2>
+            <h1>DELICIOUS</h1>
+        </div>
+
+        </div>
+       
     </div>
 );
+
+
 
 export default HomeMenuPage;
