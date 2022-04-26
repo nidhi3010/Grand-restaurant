@@ -11,6 +11,7 @@ import UpperHeader from './components/upper-header/upper-header.component';
 import Header2 from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import LowerFooter from './components/lower-footer/lower-footer.component';
+import MenuPage from './pages/menupage/menupage.component';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/homemenu' component={HomeMenuPage} />
+        <Route path='/menu' component={MenuPage} />
       </Switch>
+      
       
     </div>
 

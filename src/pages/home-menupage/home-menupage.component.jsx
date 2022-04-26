@@ -11,6 +11,7 @@ import React from 'react';
 
 import HomeMenuDirectory from '../../components/homemenu-itemdirectoy/homemenu-itemdirectoy.component';
 import LunchSets from '../../components/lunch-sets/lunch-sets.component';
+import RestauViewGallery from '../../components/restau-view-gallery/restau-view-gallery.component';
 import Starters from '../../components/starters/starters.component';
 
 import './home-menupage.styles.scss';
@@ -72,6 +73,7 @@ const HomeMenuPage = () => (
         </div>
         <Starters />
         <LunchSets />
+        <RestauViewGallery />
 
     </div>
 );
