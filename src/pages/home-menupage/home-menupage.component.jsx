@@ -10,19 +10,21 @@ import React from 'react';
 // import ReservationDropDown from '../../components/reservation-drop/reservation-drop.component';
 
 import HomeMenuDirectory from '../../components/homemenu-itemdirectoy/homemenu-itemdirectoy.component';
+import LunchSets from '../../components/lunch-sets/lunch-sets.component';
+import Starters from '../../components/starters/starters.component';
 
 import './home-menupage.styles.scss';
 
 
 
-const HomeMenuPage = (hidden, hidden2, hidden3, hidden4, hidden5, hidden6) => (
+const HomeMenuPage = () => (
     <div className='home-menupage'>
         <div className='backimg'>
             <img src="https://www.teahub.io/photos/full/266-2661568_3d-wallpapers-for-restaurant.jpg">
             </img>
         </div>
 
-        
+
 
         <div className='welcome-content'>
             <h2>Welcome to</h2>
@@ -62,14 +64,15 @@ const HomeMenuPage = (hidden, hidden2, hidden3, hidden4, hidden5, hidden6) => (
         </div>
         <HomeMenuDirectory />
         <div className='bgimg-2'>
-           <img src="https://images2.alphacoders.com/107/1074612.jpg" />
-        <div className='detail-2'>
-            <h2>Amazing</h2>
-            <h1>DELICIOUS</h1>
+            <img src="https://images2.alphacoders.com/107/1074612.jpg" />
+            <div className='detail-2'>
+                <h2>Amazing</h2>
+                <h1>DELICIOUS</h1>
+            </div>
         </div>
+        <Starters />
+        <LunchSets />
 
-        </div>
-       
     </div>
 );
 

@@ -27,8 +27,8 @@ const HomeMenuItems = ({ name, ingredients, price, imageUrl }) => (
             </div>
         </div>
         <div className="hover-button">
-           <FaSearch className='hover-search' />
-           <FaShoppingCart className='hover-cart' />
+            <FaSearch className='hover-search' />
+            <FaShoppingCart className='hover-cart' />
         </div>
 
     </div>
