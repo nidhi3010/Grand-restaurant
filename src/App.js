@@ -23,7 +23,8 @@ function App() {
         <Route path='/homemenu' component={HomeMenuPage} />
         <Route path='/menu' component={MenuPage} />
       </Switch>
-      
+       <Footer />
+       <LowerFooter />
       
     </div>
 

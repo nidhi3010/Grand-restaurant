@@ -25,7 +25,6 @@ const MenusOfDay = () => (
                 <div className="ingr-button">
                     <span>Pork / Tenderloin / Yogurt</span>
                 </div>
-
             </div>
             <div className="menu_3">
                 <div className="na-pi">

@@ -1,12 +1,12 @@
 import React from "react";
 
-import './homemenu-items.styles.scss';
+import './menupage-items.styles.scss';
 
 import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
 const MenuPageItems = ({ name, ingredients, price, imageUrl }) => (
-    <div className='homemenu-item'>
+    <div className='menupage-item'>
         <div
             className='bg-image'
             style={{
@@ -37,4 +37,4 @@ const MenuPageItems = ({ name, ingredients, price, imageUrl }) => (
 
 
 
-export default HomeMenuItems;
+export default MenuPageItems;
