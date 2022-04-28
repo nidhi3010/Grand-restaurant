@@ -1,0 +1,30 @@
+.news-page {
+    width: 100%;
+    .newsbackimg {
+        img{
+            width: 100%;
+            height: 70rem;
+            filter: brightness(90%);
+            object-fit: cover;
+        }
+    }
+    .ourblog {
+        margin-top: -13rem;
+        position: absolute;
+        text-align: center;
+        margin-left: 85rem;
+        h2{
+            font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+            font-size: 5rem;
+            line-height: 1.8rem;
+            color: #ffffff;
+            font-weight: normal;
+        }
+        h1{
+            font-size: 4rem;
+            color:#ffffff;
+            line-height: 1rem;
+            font-weight: normal;
+        }
+    }
+}

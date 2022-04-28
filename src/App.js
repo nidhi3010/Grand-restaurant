@@ -6,12 +6,13 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import HomeMenuPage from './pages/home-menupage/home-menupage.component';
+import MenuPage from './pages/menupage/menupage.component';
+import NewsPage from './pages/newspage/newspage.component';
 
 import UpperHeader from './components/upper-header/upper-header.component';
 import Header2 from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import LowerFooter from './components/lower-footer/lower-footer.component';
-import MenuPage from './pages/menupage/menupage.component';
 
 function App() {
   return (
@@ -22,10 +23,10 @@ function App() {
         <Route exact path='/' component={HomePage} />
         <Route path='/homemenu' component={HomeMenuPage} />
         <Route path='/menu' component={MenuPage} />
+        <Route path='/news' component={NewsPage} />
       </Switch>
-       <Footer />
-       <LowerFooter />
-      
+
+
     </div>
 
   );
