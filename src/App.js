@@ -8,6 +8,7 @@ import HomePage from './pages/homepage/homepage.component';
 import HomeMenuPage from './pages/home-menupage/home-menupage.component';
 import MenuPage from './pages/menupage/menupage.component';
 import NewsPage from './pages/newspage/newspage.component';
+import DeliveryPage from './pages/deliverypage/delivery.component';
 
 import UpperHeader from './components/upper-header/upper-header.component';
 import Header2 from './components/header/header.component';
@@ -24,6 +25,7 @@ function App() {
         <Route path='/homemenu' component={HomeMenuPage} />
         <Route path='/menu' component={MenuPage} />
         <Route path='/news' component={NewsPage} />
+        <Route path='/delivery' component={DeliveryPage} />
       </Switch>
 
 

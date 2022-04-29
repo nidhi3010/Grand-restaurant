@@ -55,6 +55,9 @@ const NewsSideBar = () => (
                 <img src="https://max-themes.net/demos/grandresturant/demo1/upload/40747094363_16c3b23b2f_s.jpg" alt='img_6' />
             </div>
         </div>
+        <div className="pagination-detail">
+           <h3>PAGE 1 OF 2</h3>
+        </div>
     </div>
 );
 

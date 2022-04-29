@@ -20,7 +20,7 @@
              margin: 5px 0 15px 0;
              width:100%;
             display: flex;
-    
+           
             span{
                 color: #424242;
                 font-size: 11px;
@@ -29,6 +29,18 @@
                 border-right: 1px solid #424242;
                 border-spacing: 2rem;
                 font-weight: bold;
+              //  background-color: brown;
+            }
+            
+            
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
+                
             }
         }
         img{
@@ -88,6 +100,15 @@
                 border-spacing: 2rem;
                 font-weight: bold;
             }
+            
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
+            }
         }
         img{
             position: relative;
@@ -144,6 +165,14 @@
                 border-spacing: 2rem;
                 font-weight: bold;
             }
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
+            }
         }
         img{
             position: relative;
@@ -198,6 +227,14 @@
                 border-right: 1px solid #424242;
                 border-spacing: 2rem;
                 font-weight: bold;
+            }
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
             }
         }
         img{
@@ -254,6 +291,14 @@
                 border-spacing: 2rem;
                 font-weight: bold;
             }
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
+            }
         }
         img{
             position: relative;
@@ -309,6 +354,14 @@
                 border-spacing: 2rem;
                 font-weight: bold;
             }
+            h3{
+                color: #cfa670;
+                line-height: 1rem;
+                font-weight: normal;
+                letter-spacing: 2px;
+                margin-top: 0.2rem;
+                margin-left: -2rem;
+            }
         }
         img{
             position: relative;
@@ -332,5 +385,56 @@
             color: #333;
         } 
         
+    }
+
+    .pagination {
+        margin-top: 65rem;
+        margin-left: -85rem;
+        float: left;
+        color: #333;
+       
+        .current-page {
+            font-size: 2rem;
+            border-radius: 50px;
+            border: 2px solid transparent;
+            background: transparent !important;
+            border-color: #222222;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #222;
+            font-weight: normal;
+            margin-left: 2rem;
+        p{
+           padding: 2rem;
+        }
+        }
+
+        .next-page{
+            line-height: 30px;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            font-size: 2rem;
+            text-decoration: none;
+            margin-left: 8rem;
+            margin-top: -5rem;
+            font-weight: normal;
+            color: #333;
+
+            &:hover {
+                cursor: pointer;
+               background-color:#333333;
+               color: #fff;
+               & .next-page{
+                   opacity: 1;
+                   transform: scale(1.1);
+                   transition: 0.3s ease-in-out;    
+               }
+           }
+           
+            
+        }
     }
 }

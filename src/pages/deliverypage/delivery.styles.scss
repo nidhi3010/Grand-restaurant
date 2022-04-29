@@ -1,0 +1,80 @@
+.delivery-page {
+    width: 100%;
+    .deliverybackimg{
+        img{
+            width: 100%;
+            height: 70rem;
+            filter: brightness(90%);
+            object-fit: cover;
+        }
+    }
+    .services-content{
+        margin-top: -13rem;
+        position: absolute;
+        text-align: center;
+        margin-left: 85rem;
+        h2{
+            font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+            font-size: 5rem;
+            line-height: 1.8rem;
+            color: #ffffff;
+            font-weight: normal;
+        }
+        h1{
+            font-size: 4rem;
+            color:#ffffff;
+            line-height: 1rem;
+            font-weight: normal;
+        }
+    }
+    .food-delivery{
+        .food-delivery-detail{
+            width: 40%;
+        position: absolute;
+        margin-left: 13rem;
+        padding: 40px;
+        background: rgb(255, 255, 255);
+        display: block;
+       transform: translate3d(0px, 20.6391px, 0px);
+        clear: right;
+        z-index: 2;
+        float: right;
+        box-sizing: border-box;
+      //  margin-top: 18rem;
+      margin-top: 10rem;
+            h2{
+                font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+                font-size: 70px;
+                line-height: 50px;
+                color: #cfa670; 
+                font-style: italic;
+               letter-spacing: 0px;
+               margin-top: 0rem;
+            }
+            h1{
+                font-size: 60px;
+                letter-spacing: 0px;
+                line-height: 40px;
+                text-decoration: none;
+                font-weight: 300;
+                color: #222222;
+             //   background-color: brown;
+                margin-bottom: 2rem;
+                margin-top: -4rem;
+            }
+            p{
+                color: #333;
+                margin-bottom: 10px;
+                font-size: 1.2rem;
+            //    background-color: cornflowerblue;
+                margin-top: 1rem;
+            }
+        }
+        img{
+            //margin-left: 80rem;
+            margin-left: 70rem;
+        width: 90rem;
+        margin-top: 5rem;
+        }
+    }
+}
