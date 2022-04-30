@@ -40,8 +40,7 @@
         z-index: 2;
         float: right;
         box-sizing: border-box;
-      //  margin-top: 18rem;
-      margin-top: 10rem;
+        margin-top: 10rem;
             h2{
                 font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
                 font-size: 70px;
@@ -71,10 +70,150 @@
             }
         }
         img{
-            //margin-left: 80rem;
+            
             margin-left: 70rem;
-        width: 90rem;
-        margin-top: 5rem;
+            width: 90rem;
+            margin-top: 5rem;
         }
     }
+
+        .title-1{
+            margin-top: 5px;
+            font-weight: 400;
+            opacity: 0.7;
+            font-size: 13px;
+            color: #333;
+            margin-left: 16rem;
+            p{
+             
+            }
+        }
+        .title-2{
+            margin-top: 5px;
+            font-weight: 400;
+            opacity: 0.7;
+            font-size: 13px;
+            color: #333;
+            margin-left: 52rem;
+            margin-top: -3rem;
+            width: 20rem;
+            p{
+
+            }
+        }
+        .title-3{
+            margin-top: 5px;
+            font-weight: 400;
+            opacity: 0.7;
+            font-size: 13px;
+            color: #333;
+            margin-left: 85rem;
+            padding-left: 6rem;
+            margin-top: -2.6rem;
+            width:20rem;
+             p{
+               
+            }
+        }
+        .title-4{
+            margin-top: 5px;
+            font-weight: 400;
+            opacity: 0.7;
+            font-size: 13px;
+            color: #333;
+            margin-left: 120rem;  
+           width: 20rem;
+           padding-left: 6rem;
+           margin-top: -3rem;
+            p{
+
+            }
+        }
+        .title-5{
+            margin-top: 5px;
+            font-weight: 400;
+            opacity: 0.7;
+            font-size: 13px;
+            color: #333;
+            margin-left: 160rem;
+            width: 20rem;
+            padding-left: 1rem;
+            margin-top: -3rem;
+           
+            p{
+               
+            }
+        }
+        .custom-catering{
+           
+            img{
+                background-position: center center;
+                padding: 40px 0 40px 0;
+                float: left;
+                width: 100%;
+                background-size: cover;
+                height: 50rem;
+               // position: absolute;
+            }
+            .custom-catering-content {
+                background: rgba(37,37,47,0.95);
+               color: #ffffff;
+               padding: 40px;
+               height: 43rem;
+               width: 70rem;
+               background-position: 50% 50% !important;
+               position: absolute;
+               background-size: cover !important;
+               box-sizing: border-box;
+               float: right !important;
+               margin-top:8rem;
+               margin-left: 100rem;
+                h2{
+                    color: #ffffff;
+                    font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
+                    font-size: 60px;
+                    line-height: 50px;
+                    font-style: italic;
+                    text-transform: none;
+                    margin-top: 1rem;
+                    position: relative;
+                    letter-spacing: 0 !important;
+                    font-weight: normal;
+                }
+                h1{
+                    color: #ffffff;
+                    font-size: 60px;
+                    font-weight: normal;
+                  //  background-color: indigo;
+                    margin-top: -6rem;
+                }
+                .paragraph-1{
+                    margin-top: -2rem;
+                    color: #ffffff;
+                    font-size: 1.4rem;
+                    p{
+                        color: #ffffff;
+                    }
+                }
+                .paragraph-2{
+                    margin-top: 3rem;
+                    color: #ffffff;
+                    font-size: 1.4rem;
+                    p{
+
+                    }
+                }
+            }
+        }
+
+        .delivery-items {
+             margin: 0%;
+            padding: 0%;
+         //   height: 60rem;
+            img{
+                width: 24.95%;
+              //  height: 80rem;
+             overflow: hidden; 
+            }
+        }
 }
