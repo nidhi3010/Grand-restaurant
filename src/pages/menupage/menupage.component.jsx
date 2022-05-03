@@ -18,7 +18,7 @@ const MenuPage = () => (
     </div>
     <MenusOfDay />
     <div className="chiefimg">
-      <img src="https://alamobiscuitco.com/wp-content/uploads/2015/06/223_1r140806_eat_spots_sobanndls.jpg" />
+      
     </div>
     <div className="chief-heading">
       <h2>Chief</h2>
@@ -26,7 +26,7 @@ const MenuPage = () => (
     </div>
     <MenuPageItemDirectory />
     <div className="wineimg">
-      <img src="https://bistro45.com/wp-content/uploads/2015/06/139_1r120711_chimag_drinks_0722_lb.jpg" />
+      
     </div>
     <div className="winetitle">
       <h2>Wine</h2>

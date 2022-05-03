@@ -31,12 +31,21 @@
         }
     }
     .chiefimg{
-        img{
-            width: 100%;
-            height: 70rem;
-            filter: brightness(90%);
-            object-fit: cover;
-        }
+              background-image: url("https://alamobiscuitco.com/wp-content/uploads/2015/06/223_1r140806_eat_spots_sobanndls.jpg");
+              width: 100%;
+              height: 70rem;
+              background-size: 100% 100%;
+              filter: brightness(90%);
+              justify-content: space-between;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+        // img{
+        //     width: 100%;
+        //     height: 70rem;
+        //     filter: brightness(90%);
+        //     object-fit: cover;
+        // }
     }
     .chief-heading{
         margin-top: -13rem;
@@ -59,12 +68,22 @@
     }
     .wineimg{
         margin-top: 5rem;
-        img{ 
-            width: 100%;
-            height: 70rem;
-            filter: brightness(90%);
-            object-fit: cover;
-        }
+        background-image: url("https://bistro45.com/wp-content/uploads/2015/06/139_1r120711_chimag_drinks_0722_lb.jpg");
+        width: 100%;
+        height: 70rem;
+        background-size: 100% 100%;
+        filter: brightness(90%);
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+        // img{ 
+        //     width: 100%;
+        //     height: 70rem;
+        //     filter: brightness(90%);
+        //     object-fit: cover;
+        // }
     }
     .winetitle {
         margin-top: -13rem;

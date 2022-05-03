@@ -1,19 +1,24 @@
 .upper-header {
-    //position: relative;
+    
     background: #cfa670; ;
     height: 3rem;
     width: 100%;
+   
     .address-contact {
-      // margin-left: 30rem;
       color: white;
+
         .header-address {
             display: flex;
             margin-left: 30rem;
+
             .adress-logo{
                margin-top: 0.7rem;
                font-size:1.5rem;
             }
+
             gap:1rem;
+
+            
             .add-info{
                  font-size: 1.5rem;
                  margin-top: 0.5rem;

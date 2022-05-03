@@ -27,7 +27,7 @@ function App() {
         <Route path='/news' component={NewsPage} />
         <Route path='/delivery' component={DeliveryPage} />
       </Switch>
-
+     
 
     </div>
 

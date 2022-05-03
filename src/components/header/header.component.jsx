@@ -1,11 +1,11 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-
+import ReservationDropDown from '../reservation-drop/reservation-drop.component';
 
 import { connect } from 'react-redux';
 
-import CustomButton from '../custom-button/custom-button.component';
+//import CustomButton from '../custom-button/custom-button.component';
 import SideMenuBar from '../side-menudrawer/side-menudrawer.component';
 
 import { toggleHomeHidden } from '../../redux/home/home.actions';
@@ -55,7 +55,7 @@ return (
             <div className='option'>DELIVERY</div>
             <div className='option' onMouseEnter={toggleNewsHidden} onMouseLeave={toggleNewsHidden}>NEWS</div>
             <div className='option' onMouseEnter={toggleFeaturesHidden} onMouseLeave={toggleFeaturesHidden}>FEATURES</div>
-            <CustomButton />
+            <ReservationDropDown />
                
             <SideMenuBar />
         </div>

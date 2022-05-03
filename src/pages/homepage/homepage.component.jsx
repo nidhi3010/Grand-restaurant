@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Footer from '../../components/footer/footer.component';
+//import Footer from '../../components/footer/footer.component';
 
 
 import { connect } from 'react-redux';
-import Header2 from '../../components/header/header.component';
+//import Header2 from '../../components/header/header.component';
 import HomeDropDown from '../../components/home-drop/home-drop.component';
-import LowerFooter from '../../components/lower-footer/lower-footer.component';
+//import LowerFooter from '../../components/lower-footer/lower-footer.component';
 import CourseContent from '../../components/maincourse-content/maincourse-content.component';
 import Directory from '../../components/menu-directory/menu-directory.component';
 import MenuDropDown from '../../components/menu-drop/menu-drop.component';
@@ -15,19 +15,17 @@ import PageDropDown from '../../components/page-drop/page-drop.component';
 import NewsDropDown from '../../components/news-drop/news-drop.component';
 import FeaturesDropDown from '../../components/features-drop/features-drop.component';
 import Reservation from '../../components/reservation/reservation.component';
-import UpperHeader from '../../components/upper-header/upper-header.component';
-import ReservationDropDown from '../../components/reservation-drop/reservation-drop.component';
 
 import './homepage.styles.scss';
 
 
-const HomePage = ({ hidden, hidden2, hidden3, hidden4, hidden5, hidden6 }) => (
+const HomePage = ({ hidden, hidden2, hidden3, hidden4, hidden5 }) => (
 
     <div className='homepage'>
 
        
         <div className='backgroundimg'>
-            <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2KL6JYQYH4I6REYMIWBYVUGXPI.jpg">
+            <img src="https://bistro45.com/wp-content/uploads/2015/04/shutterstock_174816359_2.jpg">
             </img>
 
         </div>
@@ -48,9 +46,7 @@ const HomePage = ({ hidden, hidden2, hidden3, hidden4, hidden5, hidden6 }) => (
         {
             hidden5 ? null : <FeaturesDropDown />
         }
-        {
-            hidden6 ? null : <ReservationDropDown />
-        }
+        
 
 
 
@@ -76,9 +72,7 @@ const HomePage = ({ hidden, hidden2, hidden3, hidden4, hidden5, hidden6 }) => (
         </div>
         <CourseContent />
         <Reservation />
-        <Footer />
-        <LowerFooter />
-
+       
 
     </div>
 
@@ -87,9 +81,9 @@ const HomePage = ({ hidden, hidden2, hidden3, hidden4, hidden5, hidden6 }) => (
 
 )
 
-const mapStateToProps = ({ home: { hidden }, menu: { hidden2 }, page: { hidden3 }, news: { hidden4 }, features: { hidden5 }, reserv: { hidden6 } }) =>
+const mapStateToProps = ({ home: { hidden }, menu: { hidden2 }, page: { hidden3 }, news: { hidden4 }, features: { hidden5 }}) =>
 ({
-    hidden, hidden2, hidden3, hidden4, hidden5, hidden6
+    hidden, hidden2, hidden3, hidden4, hidden5
 })
 
 export default connect(mapStateToProps)(HomePage);

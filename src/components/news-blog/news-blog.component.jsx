@@ -71,10 +71,10 @@ const NewsBlog = () => (
             <p>elementum accumsan leo vel tempor. Sit amet cursus nisl aliquam. Aliquam et elit eu nunc rhoncus viverra quis at felis.</p>
         </div>
         <div className="pagination">
-           <p className="current-page">1</p>
-           <p href="news" className="next-page">2</p>
+            <p className="current-page">1</p>
+            <a href="news" className="next-page">2</a>
         </div>
-        
+
     </div>
 );
 

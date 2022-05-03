@@ -21,7 +21,7 @@ import './home-menupage.styles.scss';
 const HomeMenuPage = () => (
     <div className='home-menupage'>
         <div className='backimg'>
-            <img src="https://www.teahub.io/photos/full/266-2661568_3d-wallpapers-for-restaurant.jpg">
+            <img src="https://max-themes.net/demos/grandresturant/demo1/upload/slide1_bg.jpg">
             </img>
         </div>
 
@@ -57,20 +57,20 @@ const HomeMenuPage = () => (
             </div>
         </div>
         <div className='bgimg'>
-            <img src="http://millards.com/wp-content/uploads/2016/02/restaurant-gift-certificate-deductions.jpg" />
+
         </div>
         <div className='detail'>
             <h2>Delightful</h2>
             <h1>EXPERIENCE</h1>
         </div>
         <HomeMenuDirectory />
-        <div className='bgimg-2'>
-            <img src="https://images2.alphacoders.com/107/1074612.jpg" />
+        <div className='bgimg-2' />
+            
             <div className='detail-2'>
                 <h2>Amazing</h2>
                 <h1>DELICIOUS</h1>
             </div>
-        </div>
+       
         <Starters />
         <LunchSets />
         <RestauViewGallery />

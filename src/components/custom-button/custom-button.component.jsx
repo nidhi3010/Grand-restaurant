@@ -4,10 +4,10 @@ import './custom-button.styles.scss';
 import { connect } from 'react-redux';
 import { toggleReservHidden } from '../../redux/reserv/reserv.actions';
 
-const CustomButton = ({toggleReservHidden}) =>
+const CustomButton = ({toggleModal}) =>
  (
     
-     <button className='custom-button' onClick={toggleReservHidden}> 
+     <button className='custom-button' onClick={toggleModal}> 
           RESERVATION
      </button> 
 )

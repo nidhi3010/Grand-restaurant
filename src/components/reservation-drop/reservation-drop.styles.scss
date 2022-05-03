@@ -1,16 +1,44 @@
-.reservation-drop {
+body.active-modal {
+    overflow-y: hidden;
+}
+
+
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+   
+
+
+.overlay {
+    width: 100vw;
+    height: 150vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 4;
+    // background: rgba(8, 8, 8, 0.8);
+   background: rgba(0, 0, 0, 0.863);
+}
+
+
+
+
+.modal-content {
     border:1px solid #fff;
-    background-color: #222222;
-    //position: relative;
+    background: transparent;
     position: absolute;
     box-sizing: border-box;
     width: 80rem;
-   //height: 100%;
-    margin-top: -40rem;
-    margin-left: 60rem;
-    z-index: 2;
-   // margin: auto;
-    overflow: scroll;
+    z-index: 5;
     text-align: center;
     padding: 30px;
     vertical-align: baseline;
@@ -18,9 +46,11 @@
     font-size: 1.5rem;
     column-gap: 4rem;
     color: #fff;
-    // display: none;
-    // position: fixed;
-    // cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+
     .close-button{
         float: right;
     }
@@ -44,28 +74,40 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 8rem;
-       // display: table-column;
-       
+     
         .part_1{
              .name_details{
                text-align: start;
                display: grid;
-              // line-height: 7rem;
+             
               label{
-              
-                
+            
             }
            line-height: 7rem;
               }
              
-              input{
-                
+              .required_field{
+                background: transparent;
+                border:none;
+                border-bottom: 1px solid #fff;
+                outline: none;
+                color: #fff;
+                width:20rem;
             }
             
             .date_details {
               display: grid;
               text-align: start;
               line-height: 7rem;
+              
+              .birthday{
+                background: transparent;
+                border:none;
+                border-bottom: 1px solid #fff;
+                outline: none;
+                color: #fff;
+                width:20rem;
+              }
             }
         }
         
@@ -76,12 +118,19 @@
                 text-align: start;
                 line-height: 7rem;
             }
+            .required_field{
+                background: transparent;
+                border:none;
+                border-bottom: 1px solid #fff;
+                outline: none;
+                color: #fff;
+                width:20rem;
+            }
           
             .time_details{
                 display: grid;
                 text-align: start;
                line-height: 6rem;
-            
             }
         }
 
@@ -90,8 +139,16 @@
                 display: grid;
                 text-align: start;
                 line-height: 7rem;
-            
             }
+            .required_field{
+                background: transparent;
+                border:none;
+                border-bottom: 1px solid #fff;
+                outline: none;
+                color: #fff;
+                width:20rem;
+            }
+
              .seats_details{
                 display: grid;
                 text-align: start;
@@ -105,6 +162,15 @@
             text-align: start;
             padding: 6rem  0rem;
             line-height: 7rem;
+
+          .textmsg{
+            background: transparent;
+            border:none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            color: #fff;
+            width:70rem;
+          }
         }
     
 
@@ -120,4 +186,5 @@
             letter-spacing: 2px;
        }
     }
+}
 }
