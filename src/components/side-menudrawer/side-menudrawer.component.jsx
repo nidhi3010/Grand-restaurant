@@ -31,25 +31,26 @@ const SideMenuBar = ({ placeholder, handleChange }) => {
     <Box
       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 350 }}
       role="presentation"
-    
+
     >
 
       <div className='drawer-box'>
-        
-          <div className='icon-searchbox'>
+
+        <div className='icon-searchbox'>
           <input
             type='text'
             placeholder='Search...'
             onChange={handleChange}
             className='search'
           />
-          
+
           <FaSearch className='search_icon' />
-          </div>
-        
+        </div>
+
         <div className='remove' onClick={toggleDrawer(anchor, false)} >
           &#10005;
         </div>
+
         <div className='bar-menus'>
           <div className='option_1'>HOME
             <a class="nextround_1">&#8250;</a>
@@ -87,10 +88,10 @@ const SideMenuBar = ({ placeholder, handleChange }) => {
             <img src="https://news.italianfood.net/wp-content/uploads/sites/2/2021/02/food-wine-italiano.jpg" alt='img_4' />
           </div>
           <div className='second_4_img'>
-          <img src="https://www.gioiaspa.com/wp-content/uploads/2019/10/food-and-beverage-1.jpg" alt='img_5' />
-          <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2019/07/street-food-recipes-1a.jpg" alt='img_6' />
-          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg" alt='img_7' />
-          <img src="https://assets.cntraveller.in/photos/60f6d111a77bf98b83f5364c/master/pass/Ahmedabad%20Food%20Guide.jpg" alt='img_8' />
+            <img src="https://www.gioiaspa.com/wp-content/uploads/2019/10/food-and-beverage-1.jpg" alt='img_5' />
+            <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2019/07/street-food-recipes-1a.jpg" alt='img_6' />
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg" alt='img_7' />
+            <img src="https://assets.cntraveller.in/photos/60f6d111a77bf98b83f5364c/master/pass/Ahmedabad%20Food%20Guide.jpg" alt='img_8' />
           </div>
         </div>
 

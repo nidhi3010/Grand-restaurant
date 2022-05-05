@@ -9,6 +9,7 @@ import HomeMenuPage from './pages/home-menupage/home-menupage.component';
 import MenuPage from './pages/menupage/menupage.component';
 import NewsPage from './pages/newspage/newspage.component';
 import DeliveryPage from './pages/deliverypage/delivery.component';
+import RockShrimpPage from './pages/rock-shrimp-page/rock-shrimp-page.component';
 
 import UpperHeader from './components/upper-header/upper-header.component';
 import Header2 from './components/header/header.component';
@@ -26,6 +27,7 @@ function App() {
         <Route path='/menu' component={MenuPage} />
         <Route path='/news' component={NewsPage} />
         <Route path='/delivery' component={DeliveryPage} />
+        <Route path='/rockshrimp' component={RockShrimpPage} />
       </Switch>
      
 

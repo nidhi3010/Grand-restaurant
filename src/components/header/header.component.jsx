@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 
 import ReservationDropDown from '../reservation-drop/reservation-drop.component';
 
+import HomeMenuPage from '../../pages/home-menupage/home-menupage.component';
+
 import { connect } from 'react-redux';
 
 //import CustomButton from '../custom-button/custom-button.component';
@@ -49,11 +51,11 @@ return (
             <span>RESTAURANT</span>
         </div>
         <div className='options'>
-            <div className='option' onMouseEnter={toggleHomeHidden} onMouseLeave={toggleHomeHidden}>HOME</div>
-            <div className='option' onMouseEnter={toggleMenuHidden} onMouseLeave={toggleMenuHidden} >MENU</div>
+            <a href='/homemenu' className='option' onMouseEnter={toggleHomeHidden} onMouseLeave={toggleHomeHidden}>HOME</a>
+            <a href='/menu' className='option' onMouseEnter={toggleMenuHidden} onMouseLeave={toggleMenuHidden}>MENU</a>
             <div className='option' onMouseEnter={togglePageHidden} onMouseLeave={togglePageHidden}>PAGES</div>
-            <div className='option'>DELIVERY</div>
-            <div className='option' onMouseEnter={toggleNewsHidden} onMouseLeave={toggleNewsHidden}>NEWS</div>
+            <a href='delivery' className='option'>DELIVERY</a>
+            <a href='news' className='option' onMouseEnter={toggleNewsHidden} onMouseLeave={toggleNewsHidden}>NEWS</a>
             <div className='option' onMouseEnter={toggleFeaturesHidden} onMouseLeave={toggleFeaturesHidden}>FEATURES</div>
             <ReservationDropDown />
                

@@ -5,7 +5,7 @@ import './news-blog.styles.scss';
 const NewsBlog = () => (
     <div className="news-blog">
         <div className="blog-1">
-            <h1>Black Spaghetti with Rock Shrimp</h1>
+            <a className='heading' href="/rockshrimp">Black Spaghetti with Rock Shrimp</a>
             <div className="bolg-1-detail">
                 <span>APRIL 20, 2015 IN ITALIAN</span>
                 <span>NO COMMENT</span>
