@@ -4,7 +4,14 @@ import './rock-shrimp-page.styles.scss';
 
 
 const RockShrimpPage = () => (
-    <h1 className="nidhu">Nidhu</h1>
+    <div className="rock-shrimp">
+        <div className="header-options">
+            <p>Menu</p>
+            <p>Cart</p>
+            <p>Test Drive</p>
+            <p>Purchase Theme</p>
+        </div>
+    </div>
 );
 
 

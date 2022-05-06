@@ -7,7 +7,7 @@ import { toggleReservHidden } from '../../redux/reserv/reserv.actions';
 const CustomButton = ({toggleModal}) =>
  (
     
-     <button className='custom-button' onClick={toggleModal}> 
+     <button className='custom-button' variant="outlined" onClick={toggleModal}> 
           RESERVATION
      </button> 
 )
