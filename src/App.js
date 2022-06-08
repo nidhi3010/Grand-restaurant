@@ -43,7 +43,8 @@ function App() {
 
       </Switch>
 
-
+    <Footer />
+    <LowerFooter />
     </div>
 
   );

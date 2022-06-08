@@ -87,3 +87,15 @@ const mapStateToProps = ({ home: { hidden }, menu: { hidden2 }, page: { hidden3 
 })
 
 export default connect(mapStateToProps)(HomePage);
+
+
+
+
+
+
+
+
+
+
+
+
