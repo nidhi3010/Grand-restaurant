@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Grand-restaurant/static/css/main.68802b58.css",
+    "main.js": "/Grand-restaurant/static/js/main.225a49b9.js",
+    "static/js/787.f644bcf9.chunk.js": "/Grand-restaurant/static/js/787.f644bcf9.chunk.js",
+    "index.html": "/Grand-restaurant/index.html",
+    "main.68802b58.css.map": "/Grand-restaurant/static/css/main.68802b58.css.map",
+    "main.225a49b9.js.map": "/Grand-restaurant/static/js/main.225a49b9.js.map",
+    "787.f644bcf9.chunk.js.map": "/Grand-restaurant/static/js/787.f644bcf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68802b58.css",
+    "static/js/main.225a49b9.js"
+  ]
+}
